@@ -1,0 +1,43 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media only screen and (min-width: 1024px) {
+  /*large*/
+  .masonry {
+    column-count: 4;
+    column-gap: 2;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*medium*/
+  .masonry {
+    column-count: 3;
+    column-gap: 2;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+  /*small*/
+  .masonry {
+    column-count: 2;
+    column-gap: 2;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /*xs*/
+  .masonry {
+    column-count: 1;
+    column-gap: 2;
+  }
+}
+
+.break-inside {
+  break-inside: avoid;
+}

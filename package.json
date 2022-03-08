@@ -1,0 +1,36 @@
+{
+  "name": "newsme",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.7.11",
+    "@firebase/storage": "^0.9.0",
+    "@lottiefiles/lottie-player": "^1.5.3",
+    "@sendgrid/mail": "^7.6.0",
+    "@tylermenezes/cognitoforms-react": "^1.1.0",
+    "firebase": "^9.6.1",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-cognito-forms": "^0.29.2",
+    "react-dom": "^17.0.2",
+    "react-embed": "^3.3.3",
+    "react-hook-form": "^7.20.2",
+    "react-iframe": "^1.8.0",
+    "react-router-dom": "^6.0.2",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.7",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  }
+}
