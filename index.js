@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Swap My Energy | Energy Switching Specialists</title>
+        <title>Charmed Recruitment | Recruiting Specialists</title>
         <meta
           name="description"
-          content="Swap My Energy are dedicated to switching made simple. We allow you to see as much information regarding your deals as possible, allowing you to know exactly why your prices are the way they are."
+          content="We are Charmed Recruitment"
         />
         <link rel="icon" href="/switch.svg" />
       </Head>
