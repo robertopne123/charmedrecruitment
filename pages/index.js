@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-import { RNavbar } from "../components/navbar.js";
+//import { RNavbar } from "../components/navbar.js";
+import Footer from "../Components/Footer";
 
 import Link from "next/link";
 
@@ -21,7 +22,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <RNavbar />
+      {/* <RNavbar /> */}
 
       <Footer />
     </div>
