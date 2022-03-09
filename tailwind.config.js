@@ -5,18 +5,16 @@ module.exports = {
       colors: {
         charcoal: "#24252A",
         palewhite: "#F2F2F2",
-        primary: "#3B8083",
-        swapmyoranges: "#E8900D",
+        primary: "#37515F",
+        secondary: "#08A04B",
+
         background: "#1D1D1D",
-        primary: "#27AE60",
+
         primaryD: "#015032",
         secondary: "#6BC691",
         accent: "#E8E8E8",
         nightRider: "#2B2B2B",
         lighterGray: "#2B2B2B",
-        fadeGrey: "#4F4F4F",
-        nightRiderT: "#2B2B2BBF",
-        bgColourBlue: "#37515F",
       },
       fontFamily: {
         neue: ['"Work Sans"', "sans-serif"],

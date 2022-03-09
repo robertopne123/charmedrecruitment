@@ -4,12 +4,12 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="text-white">
-      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 bg-dark-gray py-9 px-4 gap-8 font-medium order-1">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
         <div className="col-span-2 xl:col-span-1">
           <Image src="/logo.png" width="100" height="100" layout="fixed" className="object-contain"/>
         </div>
         <div className="order-3">
-          <h3 className="text-palewhite  uppercase mb-2">Preston HQ</h3>
+          <h3 className="text-secondary  uppercase mb-2">Preston HQ</h3>
           <Link href="tel:01772 762729">
             <a className="hover:text-secondary">
               <span>01772 376748</span>
@@ -99,7 +99,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.instagram.com/gigawaffleuk/">
+              <Link href="https://www.instagram.com/charmed_recruitment/">
                 <a className="hover:text-secondary">Instagram</a>
               </Link>
             </li>
@@ -123,6 +123,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    <div className="flex flex-column w-full justify-between">
       <div className="bg-lighter-gray py-3 px-6">
         <span>
           &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
@@ -131,6 +132,12 @@ const Footer = () => {
           </Link>
         </span>
       </div>
+      <div className="bg-lighter-gray py-3 px-6">
+        <span>
+          Designed by Gigawaffle
+        </span>
+      </div>
+    </div>
     </div>
   );
 };
