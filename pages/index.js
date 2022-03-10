@@ -104,9 +104,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h-[550px] bg-primary grid grid-cols-3">
+      <div className="w-full h-[550px] bg-primary grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3">
         <div className="col-span-3 ">
-          <h2 className="text-center text-white text-4xl w-[100%] mt-[30px]">
+          <h2 className="text-center font-bold text-white text-4xl w-[100%] mt-[30px]">
             TRENDING JOBS
           </h2>
         </div>
@@ -121,7 +121,59 @@ export default function Home() {
           {" "}
           <JobCard image="/laptopguy.png" name="laptopguy" />
         </div>
-        <div className=""></div>
+        <div className="col-span-3 "></div>
+      </div>
+      <div className="grid grid-cols-3 gap-y-[40px]">
+        <div className="col-span-3">
+          <h2 className="text-center text-primary font-bold text-4xl w-[100%] mt-[30px] mb-[60px]">
+            Jobs
+          </h2>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+          </div>
+        </div>
       </div>
     </div>
   );
