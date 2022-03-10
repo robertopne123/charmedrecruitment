@@ -18,8 +18,8 @@ export const Header = () => {
           </div>
         </div>
         <div className="hidden lg:block w-[100%]">
-          <div className=" flex flex-coloumn pt-[30px] w-[100%]">
-            <div className="flex flex-coloumn justify-around  pl-[20px] w-[65%]">
+          <div className=" flex flex-row pt-[30px] w-[100%]">
+            <div className="flex flex-row justify-around  pl-[20px] w-[65%]">
               <h2 className="text-secondary   font-bold w-[80px]">HOME</h2>
               <h2 className="text-primary  font-bold w-[126px]">JOB SEARCH</h2>
               <h2 className="text-primary  font-bold w-[110px]">ABOUT US</h2>
@@ -140,8 +140,8 @@ export const Header = () => {
               <path
                 d="M50.3327 51.8334L3.66602 3.16675M50.3327 3.16675L3.66602 51.8334"
                 stroke="black"
-                stroke-width="6"
-                stroke-linecap="round"
+                strokeWidth="6"
+                strokeLinecap="round"
                 fill="none"
                 className="fill-white"
               />
