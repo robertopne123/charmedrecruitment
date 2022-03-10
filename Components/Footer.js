@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="text-white">
-      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 bg-primary py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
         <div className="col-span-2 xl:col-span-1">
           <Image src="/logo.png" width="100" height="100" layout="fixed" className="object-contain"/>
         </div>
@@ -111,7 +111,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="bg-gradient-to-r from-primary to-secondary p-1 order-2 xl:order-last col-span-2 xl:col-span-1">
-          <div className="bg-lighter-gray h-full w-full items-end p-4">
+          <div className="bg-primary h-full w-full items-end p-4">
             <Link href="/contact-us">
               <a className="flex items-end h-full">
                 <span className="uppercase text-sm md:text-base mr-2">
@@ -123,8 +123,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    <div className="flex flex-column w-full justify-between">
-      <div className="bg-lighter-gray py-3 px-6">
+    <div className="flex flex-column w-full justify-between bg-primary">
+      <div className="bg-primary py-3 px-6">
         <span>
           &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
           <Link href="/privacy-policy">
@@ -132,11 +132,11 @@ const Footer = () => {
           </Link>
         </span>
       </div>
-      <div className="bg-lighter-gray py-3 px-6">
-        <span>
-          Designed by 
+      <div className="bg-primary py-3 px-6">
+        <span className="flex flex-row">
+          <p className="px-1">Designed by</p>
+          <img src="/gigawaffle.png" width="80" height="20" href="http://www.gigawaffle.co.uk"/>
         </span>
-        <img src="/hamza.png" width="60" height="20" />
       </div>
     </div>
     </div>
