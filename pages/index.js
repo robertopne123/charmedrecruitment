@@ -66,15 +66,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-primary h-[500px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-2">
-        <div>
+      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2">
+        <div className="h-[600px]">
           <div className="bg-[#f5f5f5] w-[100px] flex flex-col justify-center h-[40px] mt-[40px]">
             <h3 className="text-primary font-bold mx-auto text-center text-2xl">
               ABOUT
             </h3>
           </div>
-          <div className="mt-[40px] max-w-[500px] mx-auto font-semibold text-lg">
-            <p className="text-white ">
+          <div className="mt-[40px] max-w-[500px] mx-auto font-semibold ">
+            <p className="text-white text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
               ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
               nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
@@ -84,12 +84,22 @@ export default function Home() {
               iaculis. Phasellus suscipit pulvinar justo luctus accumsan. Sed
               consequat sodales ante.
             </p>
-            <div className="bg-white w-[100px]">
-              <h3 className="text-center">Learn More</h3>
+            <div className="bg-white w-[140px] mt-[30px] ">
+              <h3 className="text-center  text-primary h-[40px] font-bold text-2xl">
+                Learn More
+              </h3>
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="relative h-[600px] mx-[30px] lg:mx-0">
+          <Image
+            src="/laptopguy.png"
+            alt="laptop Guy"
+            layout="fill"
+            objectFit="cover"
+            priority
+          />
+        </div>
       </div>
 
       {/* <Footer />  */}
