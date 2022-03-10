@@ -7,8 +7,8 @@ export const Header = () => {
   return (
     <>
       <div className="h-[87px] w-full flex flex-row border-b-8 border-secondary">
-        <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[14px] pb-[30px] ">
-          <div className="h-[49px] w-[100px]  relative mx-[30px] sm:mx-[60px] ">
+        <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[8px] pb-[30px] ">
+          <div className="h-[65px] w-[140px]  relative mx-[20px] sm:mx-[5px] ">
             <Image
               src="/Logo.png"
               alt="Nightclub image"

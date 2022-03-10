@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Header } from "../components/header";
+import { JobCard } from "../components/jobcard";
 // import styles from "../styles/Home.module.css";
 
 // import { RNavbar } from "../components/navbar.js";
@@ -74,7 +75,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="mt-[40px] max-w-[500px] mx-auto font-semibold ">
-            <p className="text-white text-xl">
+            <p className="text-white text-lg sm:text-xl px-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
               ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
               nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
@@ -91,18 +92,37 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="relative h-[600px] mx-[30px] lg:mx-0">
-          <Image
-            src="/laptopguy.png"
-            alt="laptop Guy"
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
+        <div className="w-[100%] mx-auto">
+          <div className="relative max-w-[640px] sm:w-[640px] h-[600px]  sm:mx-auto  ">
+            <Image
+              src="/laptopguy.png"
+              alt="laptop Guy"
+              layout="fill"
+              objectFit="cover"
+              priority
+            />
+          </div>
         </div>
       </div>
-
-      {/* <Footer />  */}
+      <div className="w-full h-[550px] bg-primary grid grid-cols-3">
+        <div className="col-span-3 ">
+          <h2 className="text-center text-white text-4xl w-[100%] mt-[30px]">
+            TRENDING JOBS
+          </h2>
+        </div>
+        <div className="">
+          <JobCard image="/laptopguy.png" name="laptopguy" />
+        </div>
+        <div className="">
+          {" "}
+          <JobCard image="/laptopguy.png" name="laptopguy" />
+        </div>
+        <div className="">
+          {" "}
+          <JobCard image="/laptopguy.png" name="laptopguy" />
+        </div>
+        <div className=""></div>
+      </div>
     </div>
   );
 }
