@@ -134,8 +134,9 @@ const Footer = () => {
       </div>
       <div className="bg-lighter-gray py-3 px-6">
         <span>
-          Designed by Gigawaffle
+          Designed by 
         </span>
+        <img src="/hamza.png" width="60" height="20" />
       </div>
     </div>
     </div>

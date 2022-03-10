@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../Components/Footer";
 import { Header } from "../components/header";
 // import styles from "../styles/Home.module.css";
 
@@ -64,9 +65,7 @@ export default function Home() {
         </div>
       </div>
       <h1> A whole New website</h1>
-      {/* <RNavbar />
-
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
