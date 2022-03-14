@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
+import Link from "next/link";
 
 export default function JobSearch() {
   return (
@@ -130,7 +131,24 @@ export default function JobSearch() {
           </div>
         </div>
       </div>
-      <div className="grid grid-rows-1 grid-cols-1 md:grid-cols-4 xl:grid-cols-5 bg-primary py-9 px-4 gap-8 font-medium order-1"></div>
+      <div className="grid text-center grid-rows-2 grid-cols-3 bg-primary py-9 px-4 gap-8 font-medium order-1">
+        <div />
+        <div>Want to discuss your recruitment needs?</div>
+        <div />
+        <div />
+        <div>
+          <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white">
+            <Link href="/contact-us">
+              <a className="flex items-end h-full">
+                <span className="uppercase text-sm md:text-base hover:text-secondary">
+                  Get Employed
+                </span>
+              </a>
+            </Link>
+          </div>
+        </div>
+        <div />
+      </div>
 
       <Footer />
     </div>
