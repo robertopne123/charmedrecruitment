@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <div className="text-white">
-      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 bg-primary py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
+    <div className="text-white bg-primary">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
         <div className="col-span-2 xl:col-span-1">
           <Image
             src="/logo.png"
@@ -119,5 +119,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;
