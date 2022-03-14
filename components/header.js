@@ -6,15 +6,11 @@ export const Header = () => {
   const [active, setActive] = useState(false);
   return (
     <div>
-      <div className="h-[87px] w-full flex flex-row border-b-8 border-secondary">
-<<<<<<< HEAD
-        <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[8px] pb-[30px]">
-          <div className="h-[65px] w-[140px]  relative mx-[20px] sm:mx-[5px]">
-=======
+      <div cla
+      ssName="h-[87px] w-full flex flex-row border-b-8 border-secondary">
         <div className="absolute left-0 top-0 diagonal h-[85px] w-[180px] sm:w-[205px] bg-secondary"></div>
         <div className="diagonal h-[80px] w-[160px] sm:w-[220px] bg-primary flex flex-col justify-center">
           <div className="h-[60px] w-[130px] ml-4 relative">
->>>>>>> 177f1acbf3c3c7c32340cc1bf425e16705714754
             <Image
               src="/Logo.png"
               alt="Logo"
@@ -24,15 +20,6 @@ export const Header = () => {
           </div>
         </div>
         <div className="hidden lg:block w-[100%]">
-<<<<<<< HEAD
-          <div className=" flex flex-row pt-[30px] w-[100%]">
-            <div className="flex flex-row justify-around  pl-[20px] w-[65%]">
-              <h2 className="text-secondary   font-bold w-[80px]">HOME</h2>
-              <h2 className="text-primary  font-bold w-[126px]">JOB SEARCH</h2>
-              <h2 className="text-primary  font-bold w-[110px]">ABOUT US</h2>
-              <h2 className="text-primary  font-bold w-[130px]">CONTACT US</h2>
-              <h2 className="text-primary  font-bold w-[150px]">POST VACANCY</h2>
-=======
           <div className=" flex flex-row h-full justify-between w-[100%]">
             <div className="flex flex-row justify-around gap-10 pl-10">
               <div className="flex flex-col justify-center">
@@ -60,7 +47,6 @@ export const Header = () => {
                   POST VACANCY
                 </h2>
               </div>
->>>>>>> 177f1acbf3c3c7c32340cc1bf425e16705714754
             </div>
 
             <div className="h-full flex flex-col justify-center">
