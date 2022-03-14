@@ -7,11 +7,11 @@ export const Header = () => {
   return (
     <div>
       <div className="h-[87px] w-full flex flex-row border-b-8 border-secondary">
-        <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[8px] pb-[30px] ">
-          <div className="h-[65px] w-[140px]  relative mx-[20px] sm:mx-[5px] ">
+        <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[8px] pb-[30px]">
+          <div className="h-[65px] w-[140px]  relative mx-[20px] sm:mx-[5px]">
             <Image
               src="/Logo.png"
-              alt="Nightclub image"
+              alt="Logo"
               layout="fill"
               objectFit="cover"
             />
@@ -24,9 +24,7 @@ export const Header = () => {
               <h2 className="text-primary  font-bold w-[126px]">JOB SEARCH</h2>
               <h2 className="text-primary  font-bold w-[110px]">ABOUT US</h2>
               <h2 className="text-primary  font-bold w-[130px]">CONTACT US</h2>
-              <h2 className="text-primary  font-bold w-[150px]">
-                POST VACANCY
-              </h2>
+              <h2 className="text-primary  font-bold w-[150px]">POST VACANCY</h2>
             </div>
 
             <div className=" flex flex-coloumn justify-around w-[45%] ">
