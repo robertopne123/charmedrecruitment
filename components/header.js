@@ -24,14 +24,14 @@ export const Header = () => {
               <h2 className="text-primary  font-bold w-[126px]">JOB SEARCH</h2>
               <h2 className="text-primary  font-bold w-[110px]">ABOUT US</h2>
               <h2 className="text-primary  font-bold w-[130px]">CONTACT US</h2>
-              <h2 className="text-primary  font-bold w-[150px]">
-                POST VACANCY
-              </h2>
+              <h2 className="text-primary  font-bold w-[150px]">POST VACANCY</h2>
             </div>
 
             <div className=" flex flex-coloumn justify-around w-[45%] ">
               <div className="flex flex-coloumn  ">
-                <h3 className="mr-2 text-sm pt-[2px]">01772 584880</h3>
+                <h3 className="mr-2 text-sm pt-[2px] hover:text-secondary">
+                  <a href="tel:01772584880">01772 584880</a>
+                  </h3>
                 <div className="h-[30px] px-[1px] w-0 bg-black"></div>
                 <svg
                   width="27"
@@ -81,6 +81,7 @@ export const Header = () => {
         </div>
         <div className="w-[100%] lg:hidden relative">
           <div className="flex flex-coloumn justify-around">
+            <a href="mailto:hello@charmedrecruitment.co.uk">
             <div className=" flex flex-coloumn max-w-[500px]">
               <div className="pl-[4px] pt-[30px]">
                 <svg
@@ -99,6 +100,7 @@ export const Header = () => {
               </div>
               <h3 className="text-sm pt-[32px]">UPLOAD CV</h3>
             </div>
+            </a>
             <div onClick={() => setActive(!active)} className="mt-[20px]">
               <svg
                 width="59"

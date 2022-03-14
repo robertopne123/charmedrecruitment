@@ -3,14 +3,14 @@ import Image from "next/image";
 import Footer from "../Components/Footer";
 import { Header } from "../components/header";
 
-export default function JobSearch() {
+export default function Home() {
   return (
     <div className="">
       <Head>
         <title>Charmed Recruitment</title>
         <meta
           name="description"
-          content="Your business is important to you and protecting it should be simple. At Deltic Insurance, we want to help you get the right cover to make sure your business is protected."
+          content="We'll sort you a job, mate!"
         />
         <link rel="icon" href="/Logo.png"/>
         <link
@@ -19,19 +19,8 @@ export default function JobSearch() {
         />
       </Head>
       <Header />
-      {/* <img src="hamza.png"/> */}
-      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 bg-primary py-9 px-4 gap-8 font-medium order-1"></div>
-
-
-
-
-
-
-
-
-
-
-
+      <img src="Hamza.png" />
+      <span>You appear to have taken a wrong turn... flee now</span>
       <Footer />
     </div>
   );
