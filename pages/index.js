@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 
@@ -10,9 +11,9 @@ export default function Home() {
         <title>Charmed Recruitment</title>
         <meta
           name="description"
-          content="Your business is important to you and protecting it should be simple. At Deltic Insurance, we want to help you get the right cover to make sure your business is protected."
+          content="We'll sort you a job, mate!"
         />
-        <link rel="icon" href="/delticicon.png" />
+        <link rel="icon" href="/Logo.png"/>
         <link
           href="https://fonts.googleapis.com/css2?family=Overpass"
           rel="stylesheet"
