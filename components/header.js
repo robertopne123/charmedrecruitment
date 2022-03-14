@@ -5,7 +5,7 @@ import { useState } from "react";
 export const Header = () => {
   const [active, setActive] = useState(false);
   return (
-    <>
+    <div>
       <div className="h-[87px] w-full flex flex-row border-b-8 border-secondary">
         <div className="h-[80px] border-r-8 border-secondary  w-[160px]  sm:w-[220px] bg-primary pt-[8px] pb-[30px] ">
           <div className="h-[65px] w-[140px]  relative mx-[20px] sm:mx-[5px] ">
@@ -83,7 +83,7 @@ export const Header = () => {
         </div>
         <div className="w-[100%] lg:hidden relative">
           <div className="flex flex-coloumn justify-around">
-            <a href="mailto:hello@charmedrecruitment.co.uk">
+            <a href="mailto:hello@charmedrecruitment.co.uk" />
               <div className=" flex flex-coloumn max-w-[500px]">
                 <div className="pl-[4px] pt-[30px]">
                   <svg
@@ -102,7 +102,6 @@ export const Header = () => {
                 </div>
                 <h3 className="text-sm pt-[32px] pl-[10px]">UPLOAD CV</h3>
               </div>
-            </a>
             <div onClick={() => setActive(!active)} className="mt-[20px]">
               <svg
                 width="59"
@@ -122,7 +121,6 @@ export const Header = () => {
                 />
               </svg>
             </div>
-          </div>
         </div>
         <div
           className={`lg:hidden  ${
@@ -166,6 +164,7 @@ export const Header = () => {
           </h2>
         </div>
       </div>
-    </>
+    </div>
+    </div>
   );
 };
