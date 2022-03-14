@@ -20,11 +20,19 @@ export const Header = () => {
         <div className="hidden lg:block w-[100%]">
           <div className=" flex flex-row pt-[30px] w-[100%]">
             <div className="flex flex-row justify-around  pl-[20px] w-[65%]">
-              <h2 className="text-secondary   font-bold w-[80px]">HOME</h2>
-              <h2 className="text-primary  font-bold w-[126px]">JOB SEARCH</h2>
-              <h2 className="text-primary  font-bold w-[110px]">ABOUT US</h2>
-              <h2 className="text-primary  font-bold w-[130px]">CONTACT US</h2>
-              <h2 className="text-primary  font-bold w-[150px]">
+              <h2 className="text-secondary   font-bold w-[80px] text-xl">
+                HOME
+              </h2>
+              <h2 className="text-primary  font-bold w-[126px] text-lg 2xl:text-xl">
+                JOB SEARCH
+              </h2>
+              <h2 className="text-primary  font-bold w-[110px] text-lg 2xl:text-xl">
+                ABOUT US
+              </h2>
+              <h2 className="text-primary  font-bold w-[130px] text-lg 2xl:text-xl">
+                CONTACT US
+              </h2>
+              <h2 className="text-primary  font-bold w-[150px] text-lg 2xl:text-xl">
                 POST VACANCY
               </h2>
             </div>
@@ -74,7 +82,7 @@ export const Header = () => {
                     fill="#37515F"
                   />
                 </svg>
-                <h3 className="text-sm pt-[2px]">UPLOAD CV</h3>
+                <h3 className="text-sm pt-[2px] pl-[10px]">UPLOAD CV</h3>
               </div>
             </div>
           </div>
@@ -97,7 +105,7 @@ export const Header = () => {
                   />
                 </svg>
               </div>
-              <h3 className="text-sm pt-[32px]">UPLOAD CV</h3>
+              <h3 className="text-sm pt-[32px] pl-[10px]">UPLOAD CV</h3>
             </div>
             <div onClick={() => setActive(!active)} className="mt-[20px]">
               <svg

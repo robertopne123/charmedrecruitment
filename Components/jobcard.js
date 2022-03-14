@@ -6,7 +6,7 @@ export const JobCard = (props) => {
   return (
     // <Link>
     //   <a>
-    <div className=" mx-auto p-[30px] flex flex-col relative w-[400px] h-[400px] drop-shadow-lg  ">
+    <div className=" mx-auto p-[30px] flex flex-col relative max-w-[400px] h-[400px] drop-shadow-lg  ">
       <div className="relative h-full w-[340px] ">
         <Image src={props.image} alt="" layout="fill" objectFit="cover" />
       </div>
