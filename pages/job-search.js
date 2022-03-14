@@ -29,11 +29,9 @@ export default function JobSearch() {
         <div className="hidden md:block" />
         <div className="hidden md:block" />
         <div className="hidden md:block" />
+        <div className="hidden md:block" />
         <div className="flex flex-row justify-center">
-          <input
-            className="border-b-0  text-xl -black h-[50px] max-w-[400px] appearance-none mb-2    "
-            type="text"
-          />
+          <input className="border-b-0  text-xl -black h-[50px] max-w-[400px] appearance-none mb-2" type="text"/>
           <div className="bg-white h-[50px]  p-[10px] ">
             {" "}
             <svg
@@ -50,6 +48,7 @@ export default function JobSearch() {
             </svg>
           </div>
         </div>
+        <div className="hidden md:block" />
         <div className="hidden md:block" />
         <div className="hidden md:block" />
         <div className="hidden md:block" />
@@ -75,7 +74,7 @@ export default function JobSearch() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="pb-10">
         <h2 className="text-center text-primary font-bold text-4xl w-[100%] mt-[30px] mb-[60px]">
           Jobs
         </h2>
@@ -128,8 +127,8 @@ export default function JobSearch() {
           </div>
         </div>
       </div>
-
-
+      <div className="grid grid-rows-1 grid-cols-1 md:grid-cols-4 xl:grid-cols-5 bg-primary py-9 px-4 gap-8 font-medium order-1">
+      </div>
 
 
 
