@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Footer from "../Components/Footer";
 import { Header } from "../components/header";
-import { JobCard } from "../components/jobcard";
 
 export default function Home() {
   return (
@@ -100,15 +99,15 @@ export default function Home() {
 
       <div className=" grid grid-cols-2 xl:grid-cols-3">
         <div className=" col-span-2 flex flex-row">
-          <div classname="">
+          <div classname=" hidden sm:block">
             <svg
               viewBox="0 0 347 355"
               fill="none"
               xmlns="http://www.w3.org/2000/svg
             "
-              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px]"
+              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px] hidden sm:block"
             >
-              <g clip-path="url(#clip0_60_4184)">
+              <g clipPath="url(#clip0_60_4184)">
                 <path
                   d="M292.395 302H54.6035L-0.271484 355.25V53.5C-0.271484 24.2125 24.4223 0.25 54.6035 0.25H292.395C322.576 0.25 347.27 24.2125 347.27 53.5V248.75C347.27 278.038 322.576 302 292.395 302Z"
                   fill="#496A7C"
@@ -167,12 +166,12 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div classname="max-w-[300px]">
+          <div classname="max-w-[300px] hidden sm:block">
             <svg
               viewBox="0 0 347 355"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px]"
+              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px] "
             >
               <g clip-path="url(#clip0_60_4184)">
                 <path
@@ -197,7 +196,7 @@ export default function Home() {
           </div>
         </div>
         <div className=" col-span-2 flex flex-row">
-          <div classname="max-w-[300px]">
+          <div classname="max-w-[300px] hidden sm:block">
             <svg
               viewBox="0 0 347 355"
               fill="none"
@@ -245,7 +244,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
