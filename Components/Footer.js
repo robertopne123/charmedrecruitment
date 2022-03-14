@@ -37,7 +37,7 @@ export const Footer = () => {
           <h3 className="text-secondary uppercase mb-2">Navigation</h3>
           <ul className="space-y-4">
             <li>
-              <Link href="/">
+              <Link href="/index">
                 <a className="hover:text-secondary">Home</a>
               </Link>
             </li>
