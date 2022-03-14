@@ -100,13 +100,13 @@ export default function Home() {
 
       <div className=" grid grid-cols-2 xl:grid-cols-3">
         <div className=" col-span-2 flex flex-row">
-          <div classname="max-w-[200px]">
+          <div classname="">
             <svg
-              width="300"
-              height="300"
               viewBox="0 0 347 355"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg
+            "
+              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px]"
             >
               <g clip-path="url(#clip0_60_4184)">
                 <path
@@ -129,7 +129,7 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="px-[100px]">
+          <div className="px-[50px] lg:px-[100px]">
             <div classname="flex flex-col align-center ">
               <h2 className=" text-xl font-bold text-primary">
                 HOW WE OPERATE
@@ -150,7 +150,7 @@ export default function Home() {
         <div />
         <div />
         <div className=" col-span-2 flex flex-row">
-          <div className="px-[100px]">
+          <div className="px-[50px] lg:px-[100px]">
             <div classname="flex flex-col ">
               <h2 className=" text-xl font-bold text-primary">
                 HOW WE OPERATE
@@ -169,11 +169,10 @@ export default function Home() {
           </div>
           <div classname="max-w-[300px]">
             <svg
-              width="300"
-              height="300"
               viewBox="0 0 347 355"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px]"
             >
               <g clip-path="url(#clip0_60_4184)">
                 <path
@@ -200,11 +199,10 @@ export default function Home() {
         <div className=" col-span-2 flex flex-row">
           <div classname="max-w-[300px]">
             <svg
-              width="300"
-              height="300"
               viewBox="0 0 347 355"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="w-[200px] lg:max-w-[300px] h-[200px]  lg:h-[300px]"
             >
               <g clip-path="url(#clip0_60_4184)">
                 <path
@@ -227,7 +225,7 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="px-[100px]">
+          <div className="px-[50px] lg:px-[100px]">
             <div classname="flex flex-col ">
               <h2 className=" text-xl font-bold text-primary">
                 HOW WE OPERATE

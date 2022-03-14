@@ -1,10 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-<<<<<<< HEAD
 import Footer from "../Components/Footer";
-=======
-import  Footer  from "../Components/Footer";
->>>>>>> f63b4c98e074bd9988ee99cba6c57d386f44aeb0
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 
@@ -172,8 +168,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    <Footer />
+      <Footer />
     </div>
-    
   );
 }
