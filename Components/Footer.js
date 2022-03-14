@@ -18,75 +18,45 @@ export const Footer = () => {
           <h3 className="text-secondary  uppercase mb-2">Preston HQ</h3>
           <Link href="tel:01772 762729">
             <a className="hover:text-secondary">
-              <span>01772 376748</span>
+              <span>01772 584880</span>
               <br />
             </a>
           </Link>
-          <Link href="mailto:hello@gigawaffle.co.uk">
+          <Link href="mailto:hello@charmedrecruitment.co.uk">
             <a className="hover:text-secondary">
-              <span>hello@gigawaffle.co.uk</span>
+              <span className="break-words">
+                hello@charmedrecruitment.co.uk
+              </span>
             </a>
           </Link>
           <address className="not-italic">
             Estate House, <br /> 18 Fox St, <br /> Preston <br /> PR1 2AB
           </address>
         </div>
-        <div className="order-4">
-          <h3 className="text-secondary uppercase mb-2">Company</h3>
-          <ul className="space-y-4">
-            <li>
-              <Link href="/about" className="hidden">
-                <a className="hover:text-secondary hidden">About Us</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog" className="hidden">
-                <a className="hover:text-secondary hidden">Blog</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="hidden">
-                <a className="hover:text-secondary hidden">Case Studies</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact-us">
-                <a className="hover:text-secondary">Contact Us</a>
-              </Link>
-            </li>
-          </ul>
-        </div>
         <div className="order-5">
-          <h3 className="text-secondary uppercase mb-2">Services</h3>
+          <h3 className="text-secondary uppercase mb-2">Navigation</h3>
           <ul className="space-y-4">
             <li>
-              {/*Needs changing when individual page created*/}
-              <Link href="/digital-marketing">
-                <a className="hover:text-secondary">Digital Marketing</a>
+              <Link href="/">
+                <a className="hover:text-secondary">Home</a>
               </Link>
             </li>
             <li>
               {/*Needs changing when individual page created*/}
-              <Link href="/web-design">
-                <a className="hover:text-secondary">Web Design</a>
+              <Link href="/job-search">
+                <a className="hover:text-secondary">Job Search</a>
               </Link>
             </li>
             <li>
               {/*Needs changing when individual page created*/}
               <Link href="/seo">
-                <a className="hover:text-secondary">SEO</a>
+                <a className="hover:text-secondary">Contact Us</a>
               </Link>
             </li>
             <li>
               {/*Needs changing when individual page created*/}
               <Link href="/brand-design">
-                <a className="hover:text-secondary">Brand Design</a>
-              </Link>
-            </li>
-            <li>
-              {/*Needs changing when individual page created*/}
-              <Link href="/ecommerce-design">
-                <a className="hover:text-secondary">E-Commerce Design</a>
+                <a className="hover:text-secondary">About Us</a>
               </Link>
             </li>
           </ul>
@@ -100,7 +70,7 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com/company/gigawaffle/">
+              <Link href="https://www.linkedin.com/company/charmedrecruiting/">
                 <a className="hover:text-secondary">LinkedIn</a>
               </Link>
             </li>
@@ -109,28 +79,24 @@ export const Footer = () => {
                 <a className="hover:text-secondary">Instagram</a>
               </Link>
             </li>
-            <li>
-              <Link href="/">
-                <a className="hover:text-secondary hidden">Spotify</a>
-              </Link>
-            </li>
           </ul>
         </div>
-        <div className="bg-gradient-to-r from-primary to-secondary p-1 order-2 xl:order-last col-span-2 xl:col-span-1">
-          <div className="bg-lighter-gray h-full w-full items-end p-4">
-            <Link href="/contact-us">
-              <a className="flex items-end h-full">
-                <span className="uppercase text-sm md:text-base mr-2">
-                  Get Employed
-                </span>
-                <img src="/hamza.png" width="60" height="20" />
-              </a>
-            </Link>
+        <div className="p-1 order-2 xl:order-last col-span-2 xl:col-span-1">
+          <div className="bg-primary h-full w-full items-end">
+            <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] place-content-center hover:bg-white">
+              <Link href="/contact-us">
+                <a className="flex items-end h-full">
+                  <span className="uppercase text-sm md:text-base hover:text-secondary">
+                    Get Employed
+                  </span>
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-column w-full justify-between">
-        <div className="bg-lighter-gray py-3 px-6">
+      <div className="flex flex-column w-full justify-between bg-primary">
+        <div className="bg-primary py-3 px-6">
           <span>
             &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
             <Link href="/privacy-policy">
@@ -138,8 +104,16 @@ export const Footer = () => {
             </Link>
           </span>
         </div>
-        <div className="bg-lighter-gray py-3 px-6">
-          <span>Designed by Gigawaffle</span>
+        <div className="bg-primary py-3 px-6">
+          <span className="flex flex-col md:flex-row">
+            <p className="px-[6px]">Designed by</p>
+            <img
+              src="/gigawaffle.png"
+              width="100"
+              height="20"
+              href="http://www.gigawaffle.co.uk"
+            />
+          </span>
         </div>
       </div>
     </div>

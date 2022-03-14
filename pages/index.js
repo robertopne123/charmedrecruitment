@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../Components/Footer";
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 import { Footer } from "../components/Footer";
@@ -14,11 +15,8 @@ export default function Home() {
     <div className="w-full">
       <Head>
         <title>Charmed Recruitment</title>
-        <meta
-          name="description"
-          content="Your business is important to you and protecting it should be simple. At Deltic Insurance, we want to help you get the right cover to make sure your business is protected."
-        />
-        <link rel="icon" href="/delticicon.png" />
+        <meta name="description" content="We'll sort you a job, mate!" />
+        <link rel="icon" href="/Logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Overpass"
           rel="stylesheet"
@@ -37,7 +35,7 @@ export default function Home() {
         </div>
         <div
           className="
-         absolute top-0 left-0 w-full h-[600px] flex flex-col justify-center "
+         absolute top-0 left-0 w-full h-[600px] flex flex-col justify-center shadow-xl"
         >
           <div className="mx-auto">
             <div className="flex flex-col justify-center gap-4">
@@ -62,7 +60,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2">
+      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
         <div className="h-[600px]">
           <div className="bg-[#f5f5f5] flex flex-col justify-center h-[40px] mt-[40px]">
             <h3 className="text-primary font-bold mx-auto text-center text-3xl leading-[40px] font-parkson inline">
