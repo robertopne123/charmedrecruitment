@@ -6,7 +6,13 @@ const Footer = () => {
     <div className="text-white">
       <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 bg-primary py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
         <div className="col-span-2 xl:col-span-1">
-          <Image src="/logo.png" width="100" height="100" layout="fixed" className="object-contain"/>
+          <Image
+            src="/logo.png"
+            width="100"
+            height="100"
+            layout="fixed"
+            className="object-contain"
+          />
         </div>
         <div className="order-3">
           <h3 className="text-secondary  uppercase mb-2">Preston HQ</h3>
