@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 // import styles from "../styles/Home.module.css";
@@ -127,47 +126,65 @@ export default function Home() {
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
           <div className="mx-[60px]">
             <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
+              <h2 className="text-center py-[30px] text-3xl font-parkson">
+                JOINERY
+              </h2>
             </div>
           </div>
         </div>
