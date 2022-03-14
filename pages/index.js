@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Footer from "../Components/Footer";
+import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
-import { Footer } from "../components/Footer";
 // import styles from "../styles/Home.module.css";
 
 // import { RNavbar } from "../components/navbar.js";
