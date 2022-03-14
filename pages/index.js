@@ -1,10 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-<<<<<<< HEAD
-import  Footer  from "../Components/Footer";
-=======
 import Footer from "../Components/Footer";
->>>>>>> 177f1acbf3c3c7c32340cc1bf425e16705714754
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 import { Footer } from "../components/Footer";
