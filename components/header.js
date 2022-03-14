@@ -6,13 +6,14 @@ export const Header = () => {
   const [active, setActive] = useState(false);
   return (
     <div>
-      <div className="h-[87px] w-full flex flex-row border-b-8 border-secondary">
+      <div cla
+      ssName="h-[87px] w-full flex flex-row border-b-8 border-secondary">
         <div className="absolute left-0 top-0 diagonal h-[85px] w-[180px] sm:w-[205px] bg-secondary"></div>
         <div className="diagonal h-[80px] w-[160px] sm:w-[220px] bg-primary flex flex-col justify-center">
           <div className="h-[60px] w-[130px] ml-4 relative">
             <Image
               src="/Logo.png"
-              alt="Nightclub image"
+              alt="Logo"
               layout="fill"
               objectFit="cover"
             />
