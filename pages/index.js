@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+<<<<<<< HEAD
+import Footer from "../Components/Footer";
+=======
 import  Footer  from "../Components/Footer";
+>>>>>>> f63b4c98e074bd9988ee99cba6c57d386f44aeb0
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 
@@ -9,11 +13,8 @@ export default function Home() {
     <div className="w-full">
       <Head>
         <title>Charmed Recruitment</title>
-        <meta
-          name="description"
-          content="We'll sort you a job, mate!"
-        />
-        <link rel="icon" href="/Logo.png"/>
+        <meta name="description" content="We'll sort you a job, mate!" />
+        <link rel="icon" href="/Logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Overpass"
           rel="stylesheet"
@@ -32,7 +33,7 @@ export default function Home() {
         </div>
         <div
           className="
-         absolute top-0 left-0 w-full h-[600px] flex flex-col justify-center "
+         absolute top-0 left-0 w-full h-[600px] flex flex-col justify-center shadow-xl"
         >
           <div className="max-w-[500px] mx-auto">
             <h1 className="text-white font-semibold mb-[40px]  text-center">
@@ -63,7 +64,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2">
+      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
         <div className="h-[600px]">
           <div className="bg-[#f5f5f5] w-[100px] flex flex-col justify-center h-[40px] mt-[40px]">
             <h3 className="text-primary font-bold mx-auto text-center text-2xl">
@@ -100,7 +101,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-primary">
+      <div className="bg-primary shadow-xl">
         <div className="py-10">
           <h2 className="text-center font-bold text-white text-4xl w-[100%] mt-[30px]">
             TRENDING JOBS
@@ -118,7 +119,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="mb-[80px]">
         <h2 className="text-center text-primary font-bold text-4xl w-[100%] mt-[30px] mb-[60px]">
           Jobs
         </h2>

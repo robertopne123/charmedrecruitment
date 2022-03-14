@@ -24,7 +24,9 @@ const Footer = () => {
           </Link>
           <Link href="mailto:hello@charmedrecruitment.co.uk">
             <a className="hover:text-secondary">
-              <span>hello@charmedrecruitment.co.uk</span>
+              <span className="break-words">
+                hello@charmedrecruitment.co.uk
+              </span>
             </a>
           </Link>
           <address className="not-italic">
@@ -82,33 +84,38 @@ const Footer = () => {
         <div className="p-1 order-2 xl:order-last col-span-2 xl:col-span-1">
           <div className="bg-primary h-full w-full items-end">
             <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] place-content-center hover:bg-white">
-                <Link href="/contact-us">
-                    <a className="flex items-end h-full">
-                            <span className="uppercase text-sm md:text-base hover:text-secondary">
-                            Get Employed
-                            </span>
-                    </a>
-                </Link>
+              <Link href="/contact-us">
+                <a className="flex items-end h-full">
+                  <span className="uppercase text-sm md:text-base hover:text-secondary">
+                    Get Employed
+                  </span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-    <div className="flex flex-column w-full justify-between bg-primary">
-      <div className="bg-primary py-3 px-6">
-        <span>
-          &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
-          <Link href="/privacy-policy">
-            <a className="hover:text-secondary"> Terms and Privacy Policy</a>
-          </Link>
-        </span>
+      <div className="flex flex-column w-full justify-between bg-primary">
+        <div className="bg-primary py-3 px-6">
+          <span>
+            &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
+            <Link href="/privacy-policy">
+              <a className="hover:text-secondary"> Terms and Privacy Policy</a>
+            </Link>
+          </span>
+        </div>
+        <div className="bg-primary py-3 px-6">
+          <span className="flex flex-col md:flex-row">
+            <p className="px-[6px]">Designed by</p>
+            <img
+              src="/gigawaffle.png"
+              width="100"
+              height="20"
+              href="http://www.gigawaffle.co.uk"
+            />
+          </span>
+        </div>
       </div>
-      <div className="bg-primary py-3 px-6">
-        <span className="flex flex-row">
-          <p className="px-[6px]">Designed by</p>
-          <img src="/gigawaffle.png" width="100" height="20" href="http://www.gigawaffle.co.uk"/>
-        </span>
-      </div>
-    </div>
     </div>
   );
 };
