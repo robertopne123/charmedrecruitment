@@ -62,21 +62,21 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="order-6">
-          <h3 className="text-secondary uppercase mb-2 tracking-wide">Connect</h3>
+          <h3 className="text-secondary uppercase mb-2 tracking-wide md:text-left text-right">Connect</h3>
           <ul className="space-y-4">
             <li>
               <Link href="https://www.facebook.com/gigawaffleuk">
-                <a className="hover:text-secondary tracking-wide">Facebook</a>
+                <a className="hover:text-secondary tracking-wide md:text-left text-right">Facebook</a>
               </Link>
             </li>
             <li>
               <Link href="https://www.linkedin.com/company/charmedrecruiting/">
-                <a className="hover:text-secondary tracking-wide">LinkedIn</a>
+                <a className="hover:text-secondary tracking-wide md:text-left text-right">LinkedIn</a>
               </Link>
             </li>
             <li>
               <Link href="https://www.instagram.com/charmed_recruitment/">
-                <a className="hover:text-secondary tracking-wide">Instagram</a>
+                <a className="hover:text-secondary tracking-wide md:text-left text-right">Instagram</a>
               </Link>
             </li>
           </ul>
