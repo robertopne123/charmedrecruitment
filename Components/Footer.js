@@ -37,7 +37,7 @@ export const Footer = () => {
           <h3 className="text-secondary uppercase mb-2 tracking-wide">Navigation</h3>
           <ul className="space-y-4">
             <li>
-              <Link href="/index">
+              <Link href="/">
                 <a className="hover:text-secondary tracking-wide">Home</a>
               </Link>
             </li>
@@ -55,7 +55,7 @@ export const Footer = () => {
             </li>
             <li>
               {/*Needs changing when individual page created*/}
-              <Link href="/brand-design">
+              <Link href="/about-us">
                 <a className="hover:text-secondary tracking-wide">About Us</a>
               </Link>
             </li>
@@ -70,7 +70,7 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com/company/charmedrecruiting/">
+              <Link href="https://www.linkedin.com/company/charmedrecruitment/">
                 <a className="hover:text-secondary tracking-wide md:text-left text-right">LinkedIn</a>
               </Link>
             </li>

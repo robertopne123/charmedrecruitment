@@ -16,7 +16,7 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <img src="Hamza.png" />
+      <img src="Hamgif.gif" />
       <span>You appear to have taken a wrong turn... flee now</span>
       <Footer />
     </div>

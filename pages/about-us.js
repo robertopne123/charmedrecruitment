@@ -69,7 +69,7 @@ export default function Home() {
 
       <div className=" grid grid-cols-2 xl:grid-cols-3 max-w-[1600px] mx-auto ">
         <div className=" col-span-2 flex flex-row py-[50px] border-b-4 border-secondary sm:border-white">
-          <div classname=" hidden sm:block">
+          <div className=" hidden sm:block">
             <svg
               viewBox="0 0 347 355"
               fill="none"
@@ -143,7 +143,7 @@ export default function Home() {
               xmlns="http://www.w3.org/2000/svg"
               className="w-[200px] lg:w-[300px] h-[200px]  lg:h-[300px] "
             >
-              <g clip-path="url(#clip0_60_4184)">
+              <g clipPath="url(#clip0_60_4184)">
                 <path
                   d="M292.395 302H54.6035L-0.271484 355.25V53.5C-0.271484 24.2125 24.4223 0.25 54.6035 0.25H292.395C322.576 0.25 347.27 24.2125 347.27 53.5V248.75C347.27 278.038 322.576 302 292.395 302Z"
                   fill="#496A7C"
