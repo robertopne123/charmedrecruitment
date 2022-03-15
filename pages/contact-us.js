@@ -30,10 +30,12 @@ export default function JobSearch() {
             <div />
             <div className="border-t-[1px] mx-10 border-secondary" />
         </div>
-        <div className="pb-10">
-            <h2 className="text-center tracking-wide font-parkson text-primary font-bold text-4xl w-[100%] mt-[30px] mb-[60px]">
-            <a>Jobs</a>
-            </h2>
+        <div className="flex flex-row py-10 justify-around align-center bg-white">
+            <div className="bg-primary max-w-[700px] h-[700px]">
+                <div className=" flex justify-around px-10 py-10 border-4 border-secondary">
+                    test
+                </div>    
+            </div>
         </div>
         <div className="grid text-white text-3xl font-parkson text-center grid-rows-2 grid-cols-3 bg-primary py-9 px-4 gap-8 order-1">
         <div />
