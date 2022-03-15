@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
 import { JobCard } from "../components/jobcard";
 
@@ -37,7 +38,7 @@ export default function Home() {
               </h1>
               <div className="flex flex-row">
                 <input
-                  className="border-b-0 text-xl h-[50px] appearance-none mb-2 w-[400px]"
+                  className="border-b-0 text-xl h-[50px] appearance-none mb-2 w-[250px] sm:w-[400px]"
                   type="text"
                 />
               </div>
@@ -53,14 +54,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-primary h-[1200px] lg:h-[600px] max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
-        <div className="h-[600px]">
+      <div className="bg-primary max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
+        <div className=" mb-[40px]">
           <div className="bg-[#f5f5f5] flex flex-col justify-center h-[40px] mt-[40px]">
             <h3 className="text-primary font-bold mx-auto text-center text-3xl leading-[40px] font-parkson inline">
               ABOUT
             </h3>
           </div>
-          <div className="mt-[40px] px-10 mx-auto font-semibold ">
+          <div className="mt-[40px] px-[15px] sm:px-10 mx-auto font-semibold ">
             <p className="text-white text-lg sm:text-3xl font-parkson">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
               ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
@@ -79,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-[100%] mx-auto">
-          <div className="bg-primary relative max-w-[640px] sm:w-[640px] h-[600px]  sm:mx-auto  ">
+          <div className="bg-primary relative max-w-[510px] hidden lg:block sm:w-[640px] h-[600px]  sm:mx-auto  ">
             <Image
               src="/laptopguy.png"
               alt="laptop Guy"
@@ -92,29 +93,26 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-primary w-full">
-        <div className="max-w-[1250px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10">
-          <div className="col-span-3 ">
-            <h2 className="text-center font-bold text-white text-4xl font-parkson w-[100%]">
-              TRENDING JOBS
-            </h2>
+        <div className=" ">
+          <h2 className="text-center font-bold text-white text-4xl font-parkson w-[100%]">
+            TRENDING JOBS
+          </h2>
+        </div>
+        <div className="max-w-[1250px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-10">
+          <div className="">
+            <JobCard image="/laptopguy.png" name="laptopguy" />
           </div>
           <div className="">
             <JobCard image="/laptopguy.png" name="laptopguy" />
           </div>
           <div className="">
-            {" "}
             <JobCard image="/laptopguy.png" name="laptopguy" />
           </div>
-          <div className="">
-            {" "}
-            <JobCard image="/laptopguy.png" name="laptopguy" />
-          </div>
-          <div className="col-span-3 "></div>
         </div>
       </div>
       <div className="w-full py-10">
-        <div className="grid grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
-          <div className="col-span-3">
+        <div className="grid gird-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
+          <div className="col-span-full">
             <h2 className="text-center text-primary font-parkson font-bold text-4xl w-[100%] ">
               Jobs
             </h2>

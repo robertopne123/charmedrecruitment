@@ -148,7 +148,7 @@ export default function Home() {
             <h2 className="text-white font-semibold text-xl">ABOUT YOU</h2>
           </div>
         </div>
-        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[395px]">
+        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[389px]">
           <div className="p-[10px] bg-primary ">
             <h2 className="text-white font-semibold text-xl">
               VACANCY DETAILS

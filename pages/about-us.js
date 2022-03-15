@@ -19,7 +19,7 @@ export default function Home() {
       <div className=" w-full bg-primary">
         <div
           className="
-          top-0 left-0 w-full h-[400px] flex flex-col justify-center shadow-xl"
+          top-0 left-0 w-full h-[300px] flex flex-col justify-center shadow-xl"
         >
           <div className="max-w-[500px] mx-auto">
             <h1 className="text-white text-4xl font-semibold mb-[40px] p-6  text-center border-b-2 border-secondary">
