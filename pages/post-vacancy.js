@@ -10,10 +10,6 @@ export default function Home() {
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
         <link rel="icon" href="/Logo.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Overpass"
-          rel="stylesheet"
-        />
       </Head>
       <Header />
       <div className=" w-full bg-primary">
@@ -34,7 +30,7 @@ export default function Home() {
           className="flex flex-col"
           name="CVform"
           method="POST"
-          action="/success"
+          action="/"
           netlify-honeypot="bot-field"
           data-netlify="true"
         >
@@ -46,7 +42,7 @@ export default function Home() {
               </label>
             </p>
             <div className="">
-              <div className=" ">
+              <div className="col-span-full">
                 <input
                   className="placeholder-primary  appearance-none border  mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="name"
@@ -56,7 +52,7 @@ export default function Home() {
                   required
                 ></input>
               </div>
-              <div className="col-span-full md:col-span-3">
+              <div className="col-span-full">
                 <input
                   className="placeholder-primary  appearance-none border  mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="email"
@@ -66,7 +62,7 @@ export default function Home() {
                   required
                 ></input>
               </div>
-              <div className="col-span-full md:col-span-3">
+              <div className="col-span-full">
                 <input
                   className="placeholder-primary  appearance-none border  mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="number"

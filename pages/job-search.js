@@ -14,10 +14,6 @@ export default function JobSearch() {
           content="Your business is important to you and protecting it should be simple. At Deltic Insurance, we want to help you get the right cover to make sure your business is protected."
         />
         <link rel="icon" href="/Logo.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Overpass"
-          rel="stylesheet"
-        />
       </Head>
       <Header />
       {/* <img src="hamza.png"/> */}
@@ -49,59 +45,77 @@ export default function JobSearch() {
           </div>
         </div>
       </div>
-      <div className="pb-10">
-        <h2 className="text-center text-primary font-bold text-4xl w-[100%] mt-[30px] mb-[60px]">
-          Jobs
-        </h2>
-
-        <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px]">
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+      <div className="grid gird-cols-1 py-[100px] sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
+        <div className="col-span-full">
+          <h2 className="text-center text-primary font-parkson font-bold text-4xl w-[100%] ">
+            Jobs
+          </h2>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
-          <div className="mx-[60px]">
-            <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
-              <h2 className="text-center py-[30px] text-3xl ">JOINERY</h2>
-            </div>
+        </div>
+        <div className="mx-[60px]">
+          <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
+            <h2 className="text-center py-[30px] text-3xl font-parkson">
+              JOINERY
+            </h2>
           </div>
         </div>
       </div>
+
       <div className=" text-center  bg-primary py-9 px-4 gap-8 font-medium order-1">
         <div className="mb-[20px]">
           <p className="text-white text-xl">
