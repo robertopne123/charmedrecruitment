@@ -78,15 +78,10 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-<<<<<<< HEAD
-              <Link href="https://www.linkedin.com/company/charmedrecruitment/">
-                <a className="hover:text-secondary tracking-wide md:text-left text-right">LinkedIn</a>
-=======
               <Link href="https://www.linkedin.com/company/charmedrecruiting/">
                 <a className="hover:text-secondary tracking-wide md:text-left text-right">
                   LinkedIn
                 </a>
->>>>>>> 1ea7740484b228f6ea4883edb4817d819b977e43
               </Link>
             </li>
             <li>
