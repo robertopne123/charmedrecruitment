@@ -10,10 +10,6 @@ export default function Home() {
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
         <link rel="icon" href="/Logo.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Overpass"
-          rel="stylesheet"
-        />
       </Head>
       <Header />
       <div className=" w-full bg-primary">

@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 import { Footer } from "../Components/Footer";
 import { Header } from "../components/header";
 
@@ -10,10 +12,6 @@ export default function Home() {
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
         <link rel="icon" href="/Logo.png" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Overpass"
-          rel="stylesheet"
-        />
       </Head>
       <Header />
       <div className=" w-full bg-primary">
@@ -173,7 +171,7 @@ export default function Home() {
               xmlns="http://www.w3.org/2000/svg"
               className="w-[200px] lg:w-[300px] h-[200px]  lg:h-[300px]"
             >
-              <g clip-path="url(#clip0_60_4184)">
+              <g clipPath="url(#clip0_60_4184)">
                 <path
                   d="M292.395 302H54.6035L-0.271484 355.25V53.5C-0.271484 24.2125 24.4223 0.25 54.6035 0.25H292.395C322.576 0.25 347.27 24.2125 347.27 53.5V248.75C347.27 278.038 322.576 302 292.395 302Z"
                   fill="#496A7C"
@@ -213,12 +211,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" w-full h-[250px] bg-primary">
-        <div className="w-[200px] mx-auto ">
-          <h2 className="text-center text-xl"> NEED TO GET IN TOUCH?</h2>
-          <h2 className="bg-secondary p-[5px]  text-center text-white text-xl font-semibold rounded-lg">
-            CONTACT US
-          </h2>
+
+      <div className=" text-center  bg-primary py-9 px-4 gap-8 font-medium order-1">
+        <div className="mb-[20px]">
+          <p className="text-white text-xl">NEED TO GET IN TOUCH?</p>
+        </div>
+        <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white">
+          <Link href="/contact-us">
+            <a className="flex items-end h-full">
+              <div className="flex flex-row justify-end">
+                <div className="bg-secondary w-[100px]">
+                  <p className="font-parkson text-2xl text-white text-center">
+                    CONTACT US
+                  </p>
+                </div>
+              </div>
+            </a>
+          </Link>
         </div>
       </div>
       <Footer />
