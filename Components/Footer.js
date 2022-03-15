@@ -15,7 +15,7 @@ export const Footer = () => {
           />
         </div>
         <div className="order-3">
-          <h3 className="text-secondary  uppercase mb-2 font-4xl tracking-wide">
+          <h3 className="text-secondary uppercase mb-2 font-4xl tracking-wide">
             Preston HQ
           </h3>
           <Link href="tel:01772 762729">
