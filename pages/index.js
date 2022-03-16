@@ -269,7 +269,6 @@ export default function Home() {
               <button
                 className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl"
                 type="submit"
-                onClick={console.log("hello")}
               >
                 Submit
               </button>

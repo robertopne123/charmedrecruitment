@@ -45,7 +45,7 @@ export default function JobSearch() {
                 Don't fill this out if you're human: <input name="bot-field" />
               </label>
             </p>
-            <div className="grid  grid-cols-1 sm:grid-cols-2 gap-7 font-parkson tracking-wider text-lg">
+            <div className="grid  grid-cols-1 md:grid-cols-2 gap-7 font-parkson tracking-wider text-lg">
               <div className=" ">
                 <input
                   className="placeholder-primary w-full uppercase appearance-none border mb-2 py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -112,7 +112,6 @@ export default function JobSearch() {
               <button
                 className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl"
                 type="submit"
-                onClick={console.log("hello")}
               >
                 Submit
               </button>

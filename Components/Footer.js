@@ -48,13 +48,13 @@ export const Footer = () => {
               <p className="text-2xl md:text-left text-right pb-[10px]">Home</p>
             </a>
           </Link>
-          <Link href="/job-search">
+          {/* <Link href="/job-search">
             <a className="hover:text-secondary">
               <p className="text-2xl md:text-left text-right pb-[10px]">
                 Job Search
               </p>
             </a>
-          </Link>
+          </Link> */}
           <Link href="/contact-us">
             <a className="hover:text-secondary">
               <p className="text-2xl md:text-left text-right pb-[10px]">
