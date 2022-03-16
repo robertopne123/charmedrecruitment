@@ -8,7 +8,7 @@ import { JobCard } from "../components/jobcard";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
@@ -94,7 +94,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-primary w-full">
+      {/* trending jobs */}
+
+      {/* <div className="bg-primary w-full">
         <div className=" ">
           <h2 className="text-center font-bold text-white text-4xl font-parkson w-[100%]">
             TRENDING JOBS
@@ -111,74 +113,173 @@ export default function Home() {
             <JobCard image="/laptopguy.png" name="laptopguy" />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="grid gird-cols-1 py-[100px] sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
+      <div className="grid gird-cols-1 pb-[100px] sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
         <div className="col-span-full">
-          <h2 className="text-center text-primary font-parkson font-bold text-4xl w-[100%] ">
-            Jobs
+          <h2 className="text-center text-primary font-parkson font-bold text-7xl w-[100%] ">
+            INDUSTRIES
           </h2>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              Automotive
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              Engineering
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              Manufacturing
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              Construction
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              {"Accounting & Finance"}
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              {"Digital"}
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              {"IT"}
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              SALES
             </h2>
           </div>
         </div>
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              JOINERY
+              ADMIN
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative">
+        <div className="my-auto p-[24px] sm:p-[50px]  border-[2px] border-secondary ">
+          <form
+            className="flex flex-col"
+            name="Contactform"
+            method="POST"
+            action="/"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="inquiryForm" />
+            <p className="hidden">
+              <label>
+                Don't fill this out if you're human: <input name="bot-field" />
+              </label>
+            </p>
+            <div className="grid  grid-cols-1 sm:grid-cols-2 gap-7 font-parkson tracking-wider text-lg">
+              <div className=" ">
+                <input
+                  className="placeholder-primary w-full uppercase appearance-none border mb-2 py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="firstName"
+                  type="text"
+                  name="firstName"
+                  placeholder="FIRST NAME"
+                ></input>
+              </div>
+              <div className=" ">
+                <input
+                  className="placeholder-primary uppercase w-full appearance-none border mb-2 py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="lastName"
+                  type="text"
+                  name="lastName"
+                  placeholder="Last Name"
+                ></input>
+              </div>
+              <div className=" ">
+                <input
+                  className="placeholder-primary uppercase appearance-none border mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="email"
+                  type="text"
+                  name="email"
+                  placeholder="Email*"
+                  required
+                ></input>
+              </div>
+              <div className=" ">
+                <input
+                  className="placeholder-primary uppercase appearance-none border mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="Notes"
+                  type="email"
+                  name="notes"
+                  placeholder="Repeat Email*"
+                  required
+                ></input>
+              </div>
+
+              <div className="col-span-full">
+                <input
+                  className="placeholder-primary bg-white appearance-none border  mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="phoneNumber"
+                  type="tel"
+                  placeholder="Phone Number*"
+                  name="phoneNumber"
+                  required
+                ></input>
+              </div>
+
+              <div className="col-span-full ">
+                <textarea
+                  className="placeholder-primary bg-white appearance-none border  mb-2 w-full py-2 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="message"
+                  type="text"
+                  placeholder="Message*"
+                  name="message"
+                  row="3"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div className=" flex flex-row w-full justify-end">
+              <button
+                className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl"
+                type="submit"
+                onClick={console.log("hello")}
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[48px]">
+          <div className="p-[10px] bg-primary ">
+            <h2 className="text-white font-semibold text-3xl">
+              Sign up for mailing list
             </h2>
           </div>
         </div>

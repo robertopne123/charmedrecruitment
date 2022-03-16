@@ -25,7 +25,7 @@ export const Header = () => {
                   </div>
                 </a>
               </Link>
-              <Link href="/job-search">
+              {/* <Link href="/job-search">
                 <a className="flex flex-col justify-center">
                   <div className="flex flex-col justify-center">
                     <h2 className="text-primary font-parkson font-bold text-2xl hover:text-secondary">
@@ -33,7 +33,7 @@ export const Header = () => {
                     </h2>
                   </div>
                 </a>
-              </Link>
+              </Link> */}
               <Link href="/about-us">
                 <a className="flex flex-col justify-center">
                   <div className="flex flex-col justify-center">
@@ -66,7 +66,7 @@ export const Header = () => {
             <div className="h-full flex flex-col justify-center">
               <div className=" flex flex-row gap-10 ">
                 <div className="flex flex-row">
-                  <h3 className="mr-2 font-parkson text-xl text-primary">
+                  <h3 className="mr-2 font-parkson text-xl text-primary pt-[2px]">
                     01772 584880
                   </h3>
                   <div className="h-[30px] px-[1px] w-0 bg-primary"></div>
@@ -98,7 +98,7 @@ export const Header = () => {
                           fill="#C8102E"
                         />
                       </svg>
-                      <p className="font-parkson text-xl font-primary text-primary">
+                      <p className="font-parkson text-xl pt font-primary text-primary">
                         ENG
                       </p>
                     </div>

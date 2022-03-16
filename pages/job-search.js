@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function JobSearch() {
   return (
-    <div className="">
+    <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
         <meta

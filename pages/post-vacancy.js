@@ -5,7 +5,7 @@ import { Header } from "../components/header";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
@@ -153,34 +153,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" bg-primary w-[100%] py-[75px]">
-        <div className="flex flex-col mx-auto w-[300px] justify-center gap-4">
-          <h1 className="text-white font-semibold text-center font-parkson text-3xl">
-            WHAT ARE YOU SEARCHING FOR?
-          </h1>
-          <div className="flex flex-row">
-            <input
-              className="border-b-0 p-[5px] text-xl h-[50px] appearance-none mb-2 w-[400px]"
-              type="text"
-              placeholder="   JOB TITLE"
-            />
-          </div>
-          <div className="flex flex-row">
-            <input
-              className="border-b-0 text-xl h-[50px] appearance-none mb-2 w-[400px]"
-              type="text"
-              placeholder="   LOCATION"
-            />
-          </div>
-          <div className="flex flex-row justify-end">
-            <div className="bg-secondary w-[100px]">
-              <p className="font-parkson text-2xl text-white text-center">
-                Search
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <Footer />
     </div>
   );

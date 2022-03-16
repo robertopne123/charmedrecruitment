@@ -5,7 +5,7 @@ import { Header } from "../components/header";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
