@@ -49,24 +49,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        id="google_translate_element"
-        className=" h-[40px] w-[40px] bg-green-600"
-      ></div>
-
-      {function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          { pageLanguage: "en" },
-          "google_translate_element"
-        );
-      }}
-      {
-        <script
-          type="text/javascript"
-          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-        ></script>
-      }
-
       <div className="bg-primary max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
         <div className=" mb-[40px]">
           <div className="bg-[#f5f5f5] flex flex-col justify-center h-[40px] mt-[40px]">
@@ -76,14 +58,12 @@ export default function Home() {
           </div>
           <div className="mt-[40px] px-[15px] sm:px-10 mx-auto font-semibold ">
             <p className="text-white text-lg sm:text-3xl font-parkson">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
-              ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
-              nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
-              lacus, laoreet sed lacinia non, eleifend eu ligula. Sed sodales
-              eros non purus placerat, nec imperdiet tellus commodo. In hac
-              habitasse platea dictumst. Aliquam aliquam sit amet ante eget
-              iaculis. Phasellus suscipit pulvinar justo luctus accumsan. Sed
-              consequat sodales ante.
+              Whether you're planning your next career move or need to fill a
+              gap right away, we're devoted to working with you as an industry
+              leader. Our recruiters provide crucial guidance and insights, as
+              well as unmatched services and access to the best organisations
+              and people. We'll support your skill development and assist you in
+              navigating the new era of work as your long-term career partner.
             </p>
             <div className="bg-white w-[140px] mt-[30px] ">
               <Link href="/about-us">
