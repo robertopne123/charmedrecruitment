@@ -136,8 +136,8 @@ export default function JobSearch() {
                 <p className="text-xl tracking-wide p-[7px]">Get Employed</p>
               </div>
             </a>
-          </Link>
-        </div>
+        </Link>
+          </div>
         <div />
       </div> */}
 
