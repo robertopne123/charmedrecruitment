@@ -32,20 +32,17 @@ export default function Home() {
           <div className="mx-auto">
             <div className="flex flex-col justify-center gap-4">
               <h1 className="text-white font-semibold text-center font-parkson text-3xl">
-                WHAT ARE YOU SEARCHING FOR?
+                Sign Up For Job Update
               </h1>
-              <div className="flex flex-row">
-                <input
-                  className="border-b-0 text-xl h-[50px] appearance-none mb-2 w-[250px] sm:w-[400px]"
-                  type="text"
-                />
-              </div>
-              <div className="flex flex-row justify-end">
-                <div className="bg-secondary w-[100px]">
-                  <p className="font-parkson text-2xl text-white text-center">
-                    Search
-                  </p>
-                </div>
+
+              <div className="flex flex-row justify-center">
+                <Link href="#indexForm">
+                  <div className="bg-secondary w-[100px]">
+                    <p className="font-parkson text-2xl text-white text-center">
+                      Sign Up
+                    </p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -61,14 +58,12 @@ export default function Home() {
           </div>
           <div className="mt-[40px] px-[15px] sm:px-10 mx-auto font-semibold ">
             <p className="text-white text-lg sm:text-3xl font-parkson">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
-              ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
-              nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
-              lacus, laoreet sed lacinia non, eleifend eu ligula. Sed sodales
-              eros non purus placerat, nec imperdiet tellus commodo. In hac
-              habitasse platea dictumst. Aliquam aliquam sit amet ante eget
-              iaculis. Phasellus suscipit pulvinar justo luctus accumsan. Sed
-              consequat sodales ante.
+              Whether you're planning your next career move or need to fill a
+              gap right away, we're devoted to working with you as an industry
+              leader. Our recruiters provide crucial guidance and insights, as
+              well as unmatched services and access to the best organisations
+              and people. We'll support your skill development and assist you in
+              navigating the new era of work as your long-term career partner.
             </p>
             <div className="bg-white w-[140px] mt-[30px] ">
               <Link href="/about-us">
@@ -186,7 +181,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative">
+      <div
+        id="indexForm"
+        className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative"
+      >
         <div className="my-auto p-[24px] sm:p-[50px]  border-[2px] border-secondary ">
           <form
             className="flex flex-col"

@@ -36,14 +36,12 @@ export default function Home() {
           </div>
           <div className="mt-[40px] max-w-[500px] mx-auto font-semibold ">
             <p className="text-white text-lg sm:text-3xl px-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
-              ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
-              nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
-              lacus, laoreet sed lacinia non, eleifend eu ligula. Sed sodales
-              eros non purus placerat, nec imperdiet tellus commodo. In hac
-              habitasse platea dictumst. Aliquam aliquam sit amet ante eget
-              iaculis. Phasellus suscipit pulvinar justo luctus accumsan. Sed
-              consequat sodales ante.
+              Whether you're planning your next career move or need to fill a
+              gap right away, we're devoted to working with you as an industry
+              leader. Our recruiters provide crucial guidance and insights, as
+              well as unmatched services and access to the best organisations
+              and people. We'll support your skill development and assist you in
+              navigating the new era of work as your long-term career partner.
             </p>
             <div className="bg-white w-[140px] mt-[30px] ">
               <h3 className="text-center  text-primary h-[40px] font-bold text-2xl">
@@ -99,17 +97,15 @@ export default function Home() {
           <div className="px-[20px] sm:px-[30px] lg:px-[40px] ">
             <div className="flex flex-col align-center ">
               <h2 className=" text-4xl font-bold text-primary text-center mb-[20px]">
-                HOW WE OPERATE
+                What is a recruitment agency ?
               </h2>
               <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
-                commodo nulla et dui tincidunt, ut mattis augue aliquam.
-                Phasellus lorem lacus, laoreet sed lacinia non, eleifend eu
-                ligula. Sed sodales eros non purus placerat, nec imperdiet
-                tellus commodo. In hac habitasse platea dictumst. Aliquam
-                aliquam sit amet ante eget iaculis. Phasellus suscipit pulvinar
-                justo luctus accumsan. Sed consequat sodales ante.
+                Recruitment organisations, often known as employment agencies,
+                serve as a link between employers and job searchers. They work
+                on behalf of employers to recruit qualified applicants to fill
+                open positions. Many employers utilise them, and signing up can
+                provide you access to positions that aren't advertised anywhere
+                else.
               </p>
             </div>
           </div>
@@ -117,20 +113,20 @@ export default function Home() {
         <div />
         <div />
         <div className=" col-span-2 flex flex-row py-[50px] border-b-4 border-secondary sm:border-white">
-          <div className="px-[20px] sm:px-[50px] lg:px-[100px]">
+          <div className="px-[20px] sm:px-[30px] lg:px-[40px]">
             <div className="flex flex-col ">
               <h2 className=" text-4xl font-bold text-primary text-center mb-[20px]">
-                HOW WE OPERATE
+                HOW Do We Work ?
               </h2>
               <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
-                commodo nulla et dui tincidunt, ut mattis augue aliquam.
-                Phasellus lorem lacus, laoreet sed lacinia non, eleifend eu
-                ligula. Sed sodales eros non purus placerat, nec imperdiet
-                tellus commodo. In hac habitasse platea dictumst. Aliquam
-                aliquam sit amet ante eget iaculis. Phasellus suscipit pulvinar
-                justo luctus accumsan. Sed consequat sodales ante.
+                When a company needs to hire someone, it sends a job description
+                to the staffing agency. The agency then utilises this
+                description to search its database of CVs for candidates who
+                match the job description. Alternatively, they may place a job
+                advertisement on the internet to attract applicants before
+                compiling a shortlist. From this selection, the company will
+                choose its preferred applicants and ask the agency to schedule
+                interviews.
               </p>
             </div>
           </div>
@@ -192,20 +188,21 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="px-[20px] sm:px-[50px] lg:px-[100px]">
+          <div className="px-[20px] sm:px-[30px] lg:px-[40px]">
             <div className="flex flex-col ">
               <h2 className=" text-4xl font-bold text-primary text-center mb-[20px] ">
-                HOW WE OPERATE
+                WHY USE US ?
               </h2>
               <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
-                commodo nulla et dui tincidunt, ut mattis augue aliquam.
-                Phasellus lorem lacus, laoreet sed lacinia non, eleifend eu
-                ligula. Sed sodales eros non purus placerat, nec imperdiet
-                tellus commodo. In hac habitasse platea dictumst. Aliquam
-                aliquam sit amet ante eget iaculis. Phasellus suscipit pulvinar
-                justo luctus accumsan. Sed consequat sodales ante.
+                There are numerous advantages to employing a recruiting service
+                in addition to their core role of matching you to relevant
+                positions. Specialist sector agencies, for example, have
+                in-depth expertise of their industry and may advise you on the
+                best strategies to break into a specific field. They're
+                well-connected, so your CV can be submitted speculatively to a
+                variety of employers in addition to being considered for open
+                positions. Agencies may also assist you strengthen your CV and
+                cover letter, as well as provide interview advice.
               </p>
             </div>
           </div>

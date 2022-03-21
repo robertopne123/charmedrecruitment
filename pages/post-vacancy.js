@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative">
+      <div className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative text-lg">
         <form
           className="flex flex-col"
           name="CVform"
@@ -139,14 +139,14 @@ export default function Home() {
             </button>
           </div>
         </form>
-        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[51px]">
+        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[47px]">
           <div className="p-[10px] bg-primary ">
-            <h2 className="text-white font-semibold text-xl">ABOUT YOU</h2>
+            <h2 className="text-white font-semibold text-3xl">ABOUT YOU</h2>
           </div>
         </div>
-        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[389px]">
+        <div className="absolute max-w-[1200px] left-[20px] sm:left-[90px] top-[394px]">
           <div className="p-[10px] bg-primary ">
-            <h2 className="text-white font-semibold text-xl">
+            <h2 className="text-white font-semibold text-3xl">
               VACANCY DETAILS
             </h2>
           </div>
