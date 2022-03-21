@@ -212,16 +212,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" text-center  bg-primary py-[20px]  ">
-        <div className="mb-[20px]">
+      <div className="grid grid-cols-1 grid-rows-2 text-center bg-primary py-[20px]">
+        
+        <div className=" ">
           <p className="text-white text-3xl pb-[20px]">NEED TO GET IN TOUCH?</p>
         </div>
-        <Link href="/contact-us">
-          <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white hover:text-secondary text-white text-2xl">  
+
+        <div className="justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto h-[35px] hover:bg-white hover:text-secondary text-white text-2xl">
+          <a href="/contact-us"> 
             <p>CONTACT US</p>
-          </div>
-        </Link>
+          </a>
+        </div>
+
       </div>
+
       <Footer />
     </div>
   );

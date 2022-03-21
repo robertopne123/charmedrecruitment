@@ -5,11 +5,11 @@ export const Footer = () => {
   return (
     <div className="text-white bg-primary font-parkson tracking-wide">
       <div className="grid grid-cols-2 md:grid-cols-4 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
-        <div className="col-span-2 md:col-span-1 px-7">
+        <div className="col-span-2 md:col-span-1 px-10 py-10">
           <Image
-            src="/logo.png"
-            width="270"
-            height="270"
+            src="/Logo.png"
+            width="250"
+            height="250"
             layout="responsive"
             className="object-contain"
           />
@@ -33,10 +33,10 @@ export const Footer = () => {
           <address className="not-italic  text-2xl">
             <p className="pb-[10px]">Estate House,</p>
             <p className="pb-[10px]">18 Fox St,</p>
-            <p className="pb-[10px]">Preston </p>
+            <p className="pb-[10px]">Preston,</p>
             <p className="pb-[10px]">PR1 2AB</p>
           </address>
-        </div>
+          </div>
 
         <div className="">
           <h3 className="text-secondary uppercase mb-2 md:text-left text-right text-3xl pb-[20px]">
