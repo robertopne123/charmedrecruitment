@@ -7,7 +7,7 @@ import { Header } from "../components/header";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
@@ -35,7 +35,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="mt-[40px] max-w-[500px] mx-auto font-semibold ">
-            <p className="text-white text-lg sm:text-xl px-2">
+            <p className="text-white text-lg sm:text-3xl px-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
               ipsum, feugiat at mi eget, varius vulputate nisi. Cras commodo
               nulla et dui tincidunt, ut mattis augue aliquam. Phasellus lorem
@@ -96,12 +96,12 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="px-[20px] sm:px-[50px] lg:px-[100px] ">
+          <div className="px-[20px] sm:px-[30px] lg:px-[40px] ">
             <div className="flex flex-col align-center ">
-              <h2 className=" text-2xl font-bold text-primary text-center mb-[20px]">
+              <h2 className=" text-4xl font-bold text-primary text-center mb-[20px]">
                 HOW WE OPERATE
               </h2>
-              <p>
+              <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
                 commodo nulla et dui tincidunt, ut mattis augue aliquam.
@@ -119,10 +119,10 @@ export default function Home() {
         <div className=" col-span-2 flex flex-row py-[50px] border-b-4 border-secondary sm:border-white">
           <div className="px-[20px] sm:px-[50px] lg:px-[100px]">
             <div className="flex flex-col ">
-              <h2 className=" text-2xl font-bold text-primary text-center mb-[20px]">
+              <h2 className=" text-4xl font-bold text-primary text-center mb-[20px]">
                 HOW WE OPERATE
               </h2>
-              <p>
+              <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
                 commodo nulla et dui tincidunt, ut mattis augue aliquam.
@@ -194,10 +194,10 @@ export default function Home() {
           </div>
           <div className="px-[20px] sm:px-[50px] lg:px-[100px]">
             <div className="flex flex-col ">
-              <h2 className=" text-2xl font-bold text-primary text-center mb-[20px] ">
+              <h2 className=" text-4xl font-bold text-primary text-center mb-[20px] ">
                 HOW WE OPERATE
               </h2>
-              <p>
+              <p className=" text-lg sm:text-base lg:text-xl xl:text-2xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                 dolor ipsum, feugiat at mi eget, varius vulputate nisi. Cras
                 commodo nulla et dui tincidunt, ut mattis augue aliquam.
@@ -212,9 +212,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" text-center  bg-primary py-9 px-4 gap-8 font-medium order-1">
+      <div className=" text-center  bg-primary py-[20px]  ">
         <div className="mb-[20px]">
-          <p className="text-white text-xl">NEED TO GET IN TOUCH?</p>
+          <p className="text-white text-3xl pb-[20px]">NEED TO GET IN TOUCH?</p>
         </div>
         <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white">
           <Link href="/contact-us">
