@@ -32,25 +32,40 @@ export default function Home() {
           <div className="mx-auto">
             <div className="flex flex-col justify-center gap-4">
               <h1 className="text-white font-semibold text-center font-parkson text-3xl">
-                WHAT ARE YOU SEARCHING FOR?
+                Sign Up For Job Update
               </h1>
-              <div className="flex flex-row">
-                <input
-                  className="border-b-0 text-xl h-[50px] appearance-none mb-2 w-[250px] sm:w-[400px]"
-                  type="text"
-                />
-              </div>
-              <div className="flex flex-row justify-end">
-                <div className="bg-secondary w-[100px]">
-                  <p className="font-parkson text-2xl text-white text-center">
-                    Search
-                  </p>
-                </div>
+
+              <div className="flex flex-row justify-center">
+                <Link href="#indexForm">
+                  <div className="bg-secondary w-[100px]">
+                    <p className="font-parkson text-2xl text-white text-center">
+                      Sign Up
+                    </p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div
+        id="google_translate_element"
+        className=" h-[40px] w-[40px] bg-green-600"
+      ></div>
+
+      {function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }}
+      {
+        <script
+          type="text/javascript"
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+        ></script>
+      }
 
       <div className="bg-primary max-w-[1200px]  mx-auto mt-[100px] mb-[200px] grid grid-cols-1 lg:grid-cols-2 shadow-xl">
         <div className=" mb-[40px]">
@@ -166,7 +181,7 @@ export default function Home() {
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              {"IT"}
+              {"Information Technology"}
             </h2>
           </div>
         </div>
@@ -186,7 +201,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative">
+      <div
+        id="indexForm"
+        className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative"
+      >
         <div className="my-auto p-[24px] sm:p-[50px]  border-[2px] border-secondary ">
           <form
             className="flex flex-col"
