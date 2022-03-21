@@ -13,7 +13,7 @@ export default function JobSearch() {
           name="description"
           content="Your business is important to you and protecting it should be simple. At Deltic Insurance, we want to help you get the right cover to make sure your business is protected."
         />
-        <link rel="icon" href="/Logo.png" />
+        <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
       {/* <img src="hamza.png"/> */}

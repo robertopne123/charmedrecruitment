@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
-        <link rel="icon" href="/Logo.png" />
+        <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
       <div className="relative w-full">
@@ -166,7 +166,7 @@ export default function Home() {
         <div className="mx-[60px]">
           <div className=" border-y-4 border-primary hover:bg-primary hover:text-white">
             <h2 className="text-center py-[30px] text-3xl font-parkson">
-              {"IT"}
+              {"Information Technology"}
             </h2>
           </div>
         </div>

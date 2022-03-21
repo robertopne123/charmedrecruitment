@@ -4,22 +4,22 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <div className="text-white bg-primary font-parkson tracking-wide">
-      <div className="grid grid-cols-2 md:grid-cols-4  bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
-        <div className="col-span-2 md:col-span-1">
+      <div className="grid grid-cols-2 md:grid-cols-4 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
+        <div className="col-span-2 md:col-span-1 px-7">
           <Image
             src="/logo.png"
-            width="100"
-            height="100"
-            layout="fixed"
+            width="270"
+            height="270"
+            layout="responsive"
             className="object-contain"
           />
         </div>
         <div className="">
-          <h3 className="text-secondary  uppercase mb-2   text-3xl pb-[20px]">
+          <h3 className="text-secondary uppercase mb-2 text-3xl pb-[20px]">
             Preston HQ
           </h3>
           <Link href="tel:01772 762729">
-            <a className="hover:text-secondary  text-2xl ">
+            <a className="hover:text-secondary text-2xl ">
               <p className="pb-[10px]">01772 584880</p>
             </a>
           </Link>
@@ -106,7 +106,7 @@ export const Footer = () => {
       </div>
 
       <div className="flex flex-column w-full justify-between bg-primary">
-        <div className="bg-primary py-3 px-6">
+        <div className="bg-primary py-3 px-6 text-xl">
           <span>
             &copy; 2022 Charmed Recruitment | Charmed Recruitment Ltd 13272215 -
             <Link href="/privacy-policy">

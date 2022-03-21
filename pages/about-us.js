@@ -7,11 +7,11 @@ import { Header } from "../components/header";
 
 export default function Home() {
   return (
-    <div className="w-full font-parkson">
+    <div className="w-full font-parkson tracking-wide">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
-        <link rel="icon" href="/Logo.png" />
+        <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
       <div className=" w-full bg-primary">
@@ -216,19 +216,11 @@ export default function Home() {
         <div className="mb-[20px]">
           <p className="text-white text-3xl pb-[20px]">NEED TO GET IN TOUCH?</p>
         </div>
-        <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white">
-          <Link href="/contact-us">
-            <a className="flex items-end h-full">
-              <div className="flex flex-row justify-end">
-                <div className="bg-secondary w-[100px]">
-                  <p className="font-parkson text-2xl text-white text-center">
-                    CONTACT US
-                  </p>
-                </div>
-              </div>
-            </a>
-          </Link>
-        </div>
+        <Link href="/contact-us">
+          <div className="flex flex-row justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto place-content-center hover:bg-white hover:text-secondary text-white text-2xl">  
+            <p>CONTACT US</p>
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>

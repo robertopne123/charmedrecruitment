@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="We'll sort you a job, mate!" />
-        <link rel="icon" href="/Logo.png" />
+        <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
       <div className=" w-full bg-primary">
