@@ -181,8 +181,9 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="py-[1px]" id="indexForm"/>
       <div
-        id="indexForm"
+        
         className="max-w-[1200px] border-[2px] py-[75px] sm:p-[75px] border-secondary bg-primary mx-auto my-[75px] relative"
       >
         <div className="my-auto p-[24px] sm:p-[50px]  border-[2px] border-secondary ">
