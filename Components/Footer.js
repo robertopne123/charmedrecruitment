@@ -5,61 +5,60 @@ export const Footer = () => {
   return (
     <div className="text-white bg-primary font-parkson tracking-wide">
       <div className="grid grid-cols-2 md:grid-cols-4 bg-dark-gray py-9 px-4 gap-8 font-medium order-1 border-t-8 border-secondary">
-        <div className="col-span-2 md:col-span-1 px-1 py-1 lg:px-15 lg:pb-15">
+        <div className="w-[100px] h-[49px] md:w-[170px] md:h-[82px] relative  px-1 py-1 lg:px-15 lg:pb-15">
           <Image
-            className="align-top"
             src="/Logo.png"
-            width="140"
-            height="90"
-            layout="responsive"
-            className="object-contain"
+            alt="Banner Image"
+            layout="fill"
+            objectFit="cover"
+            priority="true"
           />
         </div>
-        <div className="text-right md:text-left">
-          <h3 className="text-secondary uppercase mb-2 text-3xl pb-[20px]">
-            Preston HQ
-          </h3>
 
-          <p className="text-2xl text-right pb-[10px] md:text-left">
+        <div className="text-right md:text-left text-2xl space-y-[10px]">
+          <h3 className="text-secondary text-3xl pb-[20px]">Preston HQ</h3>
+
+          <div className="">
             <Link href="tel:01772 762729">
-              <a className="hover:text-secondary text-2xl">
-                01772 584880
+              <a className="hover:text-secondary ">
+                <p> 01772 584880</p>
               </a>
             </Link>
-          </p>
-
-          <p className="text-2xl text-right pb-[10px] break-words md:text-left">
+          </div>
+          <div className="break-words">
             <Link href="mailto:hello@charmedrecruitment.co.uk">
               <a className="hover:text-secondary">
-                hello@charmedrecruitment.co.uk
+                <p> hello@charmedrecruitment.co.uk</p>
               </a>
             </Link>
-          </p>
-          
-          <address className="not-italic text-right text-2xl md:text-left">
-              <p className="pb-[10px]">
-                <a href="https://goo.gl/maps/s6BpnJDUpk9adWGE6" className="hover:text-secondary">
-                    Estate House,<br/>
-                    18 Fox St,<br/>
-                    Preston,<br/>
-                    PR1 2AB
-                </a>
-              </p>
+          </div>
+          <address className="not-italic">
+            <p className="">
+              <a
+                href="https://goo.gl/maps/s6BpnJDUpk9adWGE6"
+                className="hover:text-secondary"
+              >
+                Estate House,
+                <br />
+                18 Fox St,
+                <br />
+                Preston,
+                <br />
+                PR1 2AB
+              </a>
+            </p>
           </address>
         </div>
 
-        <div className="">
-          <h3 className="text-secondary uppercase mb-2 md:text-left text-left text-3xl pb-[20px]">
-            Navigation
-          </h3>
-          <p className="text-2xl md:text-left text-left pb-[10px]">
+        <div className=" text-left text-2xl space-y-[10px]">
+          <h3 className="text-secondary text-3xl pb-[20px]">Navigation</h3>
+          <div className="">
             <Link href="/">
               <a className="hover:text-secondary">
-                Home
+                <p>Home</p>
               </a>
             </Link>
-          </p>
-          
+          </div>
           {/* <p className="text-2xl md:text-left text-right pb-[10px]">
             <Link href="/contact-us">
               <a className="hover:text-secondary">
@@ -67,52 +66,47 @@ export const Footer = () => {
               </a>
             </Link>
           </p> */}
-          
-          <p className="text-2xl md:text-left text-left pb-[10px]">
+          <div className="">
             <Link href="/contact-us">
               <a className="hover:text-secondary">
-                Contact Us
+                <p>Contact Us</p>
               </a>
             </Link>
-          </p>
-            
-          <p className="text-2xl md:text-left text-left pb-[10px]">
+          </div>
+          <div className="">
             <Link href="/about-us">
               <a className="hover:text-secondary">
-                About Us
+                <p>About Us</p>
               </a>
             </Link>
-          </p>
+          </div>
         </div>
 
-        <div className="md:text-left text-right md:col-span-1">
-          <h3 className="text-secondary uppercase mb-2 text-3xl md:text-left pb-[20px]">
-            Connect
-          </h3>
+        <div className="text-right md:text-left  text-2xl space-y-[10px]">
+          <h3 className="text-secondary text-3xl pb-[20px]">Connect</h3>
 
-          <p className="text-2xl md:text-left text-right pb-[10px]">
+          <div className="">
             <Link href="https://www.facebook.com/gigawaffleuk/">
               <a className="hover:text-secondary">
-                Facebook
+                {" "}
+                <p>Facebook</p>
               </a>
             </Link>
-          </p>
-
-          <p className="text-2xl md:text-left text-right pb-[10px]">
+          </div>
+          <div className="">
             <Link href="https://www.linkedin.com/company/charmedrecruiting/">
               <a className="hover:text-secondary">
-                LinkedIn
+                <p>LinkedIn</p>
               </a>
             </Link>
-          </p>
-
-          <p className="text-2xl md:text-left text-right pb-[10px]">
+          </div>
+          <div className="">
             <Link href="https://www.instagram.com/charmed_recruitment/">
               <a className="hover:text-secondary">
-                Instagram
+                <p>Instagram</p>
               </a>
             </Link>
-          </p>
+          </div>
         </div>
       </div>
 
