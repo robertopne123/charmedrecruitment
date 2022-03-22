@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" bg-primary w-[100%] py-[75px] ">
+      {/* <div className=" bg-primary w-[100%] py-[75px] ">
         <div className="flex flex-col mx-auto w-[300px] justify-center gap-4">
           <h1 className="text-white font-semibold text-center font-parkson text-3xl">
             WHAT ARE YOU SEARCHING FOR?
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
