@@ -69,40 +69,6 @@ export const Header = () => {
                   <h3 className="mr-2 font-parkson text-xl text-primary pt-[2px]">
                     01772 584880
                   </h3>
-                  <div className="h-[30px] px-[1px] w-0 bg-primary"></div>
-                  <div className="flex flex-col justify-center">
-                    <div className="flex flex-row gap-2">
-                      <svg
-                        width="27"
-                        height="27"
-                        viewBox="0 0 27 27"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="rounded-full ml-2"
-                      >
-                        <path d="M0 0H27V27H0V0Z" fill="#012169" />
-                        <path
-                          d="M3.16406 0L13.4578 10.1812L23.7094 0H27V3.4875L16.875 13.5562L27 23.5687V27H23.625L13.5 16.9312L3.41719 27H0V23.625L10.0828 13.6125L0 3.6V0H3.16406Z"
-                          fill="white"
-                        />
-                        <path
-                          d="M17.8875 15.8062L27 24.75V27L15.5672 15.8062H17.8875ZM10.125 16.9312L10.3781 18.9L2.27813 27H0L10.125 16.9312ZM27 0V0.16875L16.4953 10.7437L16.5797 8.26875L24.8906 0H27ZM0 0L10.0828 9.9H7.55156L0 2.3625V0Z"
-                          fill="#C8102E"
-                        />
-                        <path
-                          d="M10.1672 0V27H16.9172V0H10.1672ZM0 9V18H27V9H0Z"
-                          fill="white"
-                        />
-                        <path
-                          d="M0 10.8562V16.2563H27V10.8562H0ZM11.5172 0V27H15.5672V0H11.5172Z"
-                          fill="#C8102E"
-                        />
-                      </svg>
-                      <p className="font-parkson text-xl pt font-primary text-primary">
-                        ENG
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <Link href="/upload-cv">
                   <a className="">
@@ -214,13 +180,7 @@ export const Header = () => {
                 </h2>
               </a>
             </Link>
-            <Link href="/job-search">
-              <a className="">
-                <h2 className="text-center text-white text-xl font-semibold my-[10px]">
-                  JOB SEARCH
-                </h2>
-              </a>
-            </Link>
+
             <Link href="/about-us">
               <a className="">
                 <h2 className="text-center text-white text-xl font-semibold my-[10px]">
