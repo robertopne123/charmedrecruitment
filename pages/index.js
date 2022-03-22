@@ -11,7 +11,7 @@ export default function Home() {
     <div className="w-full font-parkson">
       <Head>
         <title>Charmed Recruitment</title>
-        <meta name="description" content="We'll sort you a job, mate!" />
+        <meta name="description" content="Charmed Recruitment" />
         <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
@@ -37,10 +37,10 @@ export default function Home() {
 
               <div className="flex flex-row justify-center">
                 <Link href="#indexForm">
-                  <div className="bg-secondary w-[100px] rounded-md hover:bg-white">
-                    <p className="font-parkson text-2xl text-white text-center">
-                      Sign Up
-                    </p>
+                  <div className=" flex flex-row w-full justify-center">
+                    <button className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl">
+                      Click here
+                    </button>
                   </div>
                 </Link>
               </div>
