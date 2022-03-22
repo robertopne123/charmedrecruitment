@@ -37,7 +37,7 @@ export default function Home() {
 
               <div className="flex flex-row justify-center">
                 <Link href="#indexForm">
-                  <div className="bg-secondary w-[100px]">
+                  <div className="bg-secondary w-[100px] rounded-md hover:bg-white">
                     <p className="font-parkson text-2xl text-white text-center">
                       Sign Up
                     </p>
