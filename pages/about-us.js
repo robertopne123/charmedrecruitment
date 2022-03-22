@@ -43,11 +43,6 @@ export default function Home() {
               and people. We'll support your skill development and assist you in
               navigating the new era of work as your long-term career partner.
             </p>
-            <div className="bg-white w-[140px] mt-[30px] ">
-              <h3 className="text-center  text-primary h-[40px] font-bold text-2xl">
-                Learn More
-              </h3>
-            </div>
           </div>
         </div>
         <div className=" hidden lg:block w-[500px]">
@@ -210,17 +205,15 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 grid-rows-2 text-center bg-primary py-[20px]">
-        
         <div className=" ">
           <p className="text-white text-3xl pb-[20px]">NEED TO GET IN TOUCH?</p>
         </div>
 
         <div className="justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto h-[35px] hover:bg-white hover:text-secondary text-white text-2xl">
-          <a href="/contact-us"> 
+          <a href="/contact-us">
             <p>CONTACT US</p>
           </a>
         </div>
-
       </div>
 
       <Footer />
