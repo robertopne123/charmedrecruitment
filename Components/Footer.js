@@ -20,15 +20,13 @@ export const Footer = () => {
 
           <div className="">
             <Link href="tel:01772 762729">
-              <a className="hover:text-secondary ">
-                <p> 01772 584880</p>
-              </a>
+              <a className="hover:text-secondary ">01772 584880</a>
             </Link>
           </div>
           <div className="break-words">
             <Link href="mailto:hello@charmedrecruitment.co.uk">
               <a className="hover:text-secondary">
-                <p> hello@charmedrecruitment.co.uk</p>
+                hello@charmedrecruitment.co.uk
               </a>
             </Link>
           </div>
@@ -54,9 +52,7 @@ export const Footer = () => {
           <h3 className="text-secondary text-3xl pb-[20px]">Navigation</h3>
           <div className="">
             <Link href="/">
-              <a className="hover:text-secondary">
-                <p>Home</p>
-              </a>
+              <a className="hover:text-secondary">Home</a>
             </Link>
           </div>
           {/* <p className="text-2xl md:text-left text-right pb-[10px]">
@@ -68,16 +64,12 @@ export const Footer = () => {
           </p> */}
           <div className="">
             <Link href="/contact-us">
-              <a className="hover:text-secondary">
-                <p>Contact Us</p>
-              </a>
+              <a className="hover:text-secondary">Contact Us</a>
             </Link>
           </div>
           <div className="">
             <Link href="/about-us">
-              <a className="hover:text-secondary">
-                <p>About Us</p>
-              </a>
+              <a className="hover:text-secondary">about Us</a>
             </Link>
           </div>
         </div>
@@ -87,24 +79,17 @@ export const Footer = () => {
 
           <div className="">
             <Link href="https://www.facebook.com/gigawaffleuk/">
-              <a className="hover:text-secondary">
-                {" "}
-                <p>Facebook</p>
-              </a>
+              <a className="hover:text-secondary">Facebook</a>
             </Link>
           </div>
           <div className="">
             <Link href="https://www.linkedin.com/company/charmedrecruiting/">
-              <a className="hover:text-secondary">
-                <p>LinkedIn</p>
-              </a>
+              <a className="hover:text-secondary">LinkedIn</a>
             </Link>
           </div>
           <div className="">
             <Link href="https://www.instagram.com/charmed_recruitment/">
-              <a className="hover:text-secondary">
-                <p>Instagram</p>
-              </a>
+              <a className="hover:text-secondary">Instagram</a>
             </Link>
           </div>
         </div>
