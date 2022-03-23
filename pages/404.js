@@ -12,8 +12,7 @@ export default function Home() {
         <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
-      <img src="Hamgif.gif" />
-      <span>You appear to have taken a wrong turn... flee now</span>
+404
       <Footer />
     </div>
   );

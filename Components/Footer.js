@@ -78,12 +78,12 @@ export const Footer = () => {
           <h3 className="text-secondary text-3xl pb-[20px]">Connect</h3>
 
           <div className="">
-            <Link href="https://www.facebook.com/gigawaffleuk/">
+            <Link href="https://www.facebook.com/charmedrecruitment/">
               <a className="hover:text-secondary">Facebook</a>
             </Link>
           </div>
           <div className="">
-            <Link href="https://www.linkedin.com/company/charmedrecruiting/">
+            <Link href="https://www.linkedin.com/company/charmedrecruitment/">
               <a className="hover:text-secondary">LinkedIn</a>
             </Link>
           </div>
