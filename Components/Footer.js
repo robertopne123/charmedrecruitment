@@ -89,7 +89,10 @@ export const Footer = () => {
           </div>
           <div className="">
             <Link href="https://www.instagram.com/charmed_recruitment/">
-              <a className="hover:text-secondary">Instagram</a>
+              <a className="hover:text-secondary">
+                {" "}
+                <p className="inline-block">Instagram</p>
+              </a>
             </Link>
           </div>
         </div>

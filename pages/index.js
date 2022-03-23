@@ -8,7 +8,7 @@ import { JobCard } from "../components/jobcard";
 
 export default function Home() {
   return (
-    <div className="w-full font-parkson">
+    <div className="w-full font-parkson tracking-wide">
       <Head>
         <title>Charmed Recruitment</title>
         <meta name="description" content="Charmed Recruitment" />
