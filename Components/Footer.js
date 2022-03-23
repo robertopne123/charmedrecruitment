@@ -32,18 +32,17 @@ export const Footer = () => {
           </div>
           <address className="not-italic">
             <p className="">
-              <a
-                href="https://goo.gl/maps/s6BpnJDUpk9adWGE6"
-                className="hover:text-secondary"
-              >
-                Estate House,
-                <br />
-                18 Fox St,
-                <br />
-                Preston,
-                <br />
-                PR1 2AB
-              </a>
+              <Link href="https://goo.gl/maps/s6BpnJDUpk9adWGE6" passHref>
+                <a className="hover:text-secondary">
+                  Estate House,
+                  <br />
+                  18 Fox St,
+                  <br />
+                  Preston,
+                  <br />
+                  PR1 2AB
+                </a>
+              </Link>
             </p>
           </address>
         </div>
@@ -51,7 +50,7 @@ export const Footer = () => {
         <div className=" text-left text-2xl space-y-[10px]">
           <h3 className="text-secondary text-3xl pb-[20px]">Navigation</h3>
           <div className="">
-            <Link href="/">
+            <Link href="/" passHref>
               <a className="hover:text-secondary">Home</a>
             </Link>
           </div>

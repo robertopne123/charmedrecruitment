@@ -210,9 +210,11 @@ export default function Home() {
         </div>
 
         <div className="justify-around bg-secondary rounded-md object-bottom w-[150px] mx-auto h-[35px] hover:bg-white hover:text-secondary text-white text-2xl">
-          <a href="/contact-us">
-            <p>CONTACT US</p>
-          </a>
+          <Link href="/contact-us" passHref>
+            <a>
+              <p>CONTACT US</p>
+            </a>
+          </Link>
         </div>
       </div>
 

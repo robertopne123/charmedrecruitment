@@ -16,7 +16,7 @@ export const Header = () => {
         <div className="hidden lg:block w-[100%]">
           <div className=" flex flex-row h-full justify-between w-[100%]">
             <div className="flex flex-row justify-around gap-10 pl-10">
-              <Link href="/">
+              <Link href="/" passHref>
                 <a className="flex flex-col justify-center">
                   <div className="">
                     <h2 className="text-primary font-parkson font-bold text-2xl hover:text-secondary">
@@ -34,7 +34,7 @@ export const Header = () => {
                   </div>
                 </a>
               </Link> */}
-              <Link href="/about-us">
+              <Link href="/about-us" passHref>
                 <a className="flex flex-col justify-center">
                   <div className="flex flex-col justify-center">
                     <h2 className="text-primary font-parkson font-bold text-2xl hover:text-secondary">
@@ -43,7 +43,7 @@ export const Header = () => {
                   </div>
                 </a>
               </Link>
-              <Link href="/contact-us">
+              <Link href="/contact-us" passHref>
                 <a className="flex flex-col justify-center">
                   <div className="flex flex-col justify-center">
                     <h2 className="text-primary font-parkson font-bold text-2xl hover:text-secondary">
@@ -52,7 +52,7 @@ export const Header = () => {
                   </div>
                 </a>
               </Link>
-              <Link href="/post-vacancy">
+              <Link href="/post-vacancy" passHref>
                 <a className="flex flex-col justify-center">
                   <div className="flex flex-col justify-center">
                     <h2 className="text-primary font-parkson font-bold text-2xl hover:text-secondary">
@@ -70,7 +70,7 @@ export const Header = () => {
                     01772 584880
                   </h3>
                 </div>
-                <Link href="/upload-cv">
+                <Link href="/upload-cv" passHref>
                   <a className="">
                     <div className="flex flex-row gap-2 mr-4 group">
                       <div className="flex flex-col justify-center">
