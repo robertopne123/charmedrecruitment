@@ -67,10 +67,12 @@ export const Header = () => {
               <div className=" flex flex-row gap-10 ">
                 <div className="flex flex-row">
                   <h3 className="mr-2 font-parkson text-xl text-primary pt-[2px]">
-                    01772 584880
+                    <Link href="tel:01772 762729">
+                      <a className="hover:text-secondary ">01772 584880</a>
+                    </Link>
                   </h3>
                 </div>
-                <Link href="/upload-cv" passHref>
+                <Link href="/upload-cv">
                   <a className="">
                     <div className="flex flex-row gap-2 mr-4 group">
                       <div className="flex flex-col justify-center">
@@ -80,17 +82,17 @@ export const Header = () => {
                           viewBox="0 0 18 24"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
-                          className=""
+                          className="group-hover:fill-secondary"
                         >
                           <path
                             d="M10.5 6.375V0H1.125C0.501562 0 0 0.501562 0 1.125V22.875C0 23.4984 0.501562 24 1.125 24H16.875C17.4984 24 18 23.4984 18 22.875V7.5H11.625C11.0063 7.5 10.5 6.99375 10.5 6.375ZM13.5553 16.5005H10.5V20.2505C10.5 20.6648 10.1644 21.0005 9.75 21.0005H8.25C7.83563 21.0005 7.5 20.6648 7.5 20.2505V16.5005H4.44469C3.77531 16.5005 3.44109 15.69 3.91641 15.218L8.43609 10.732C8.74781 10.4222 9.25125 10.4222 9.56297 10.732L14.0827 15.218C14.5584 15.69 14.2247 16.5005 13.5553 16.5005ZM17.6719 4.92188L13.0828 0.328125C12.8719 0.117188 12.5859 0 12.2859 0H12V6H18V5.71406C18 5.41875 17.8828 5.13281 17.6719 4.92188Z"
                             fill="#37515F"
-                            className="group-hover:fill-primary"
+                            className="group-hover:fill-secondary"
                           />
                         </svg>
                       </div>
                       <div className="flex flex-col justify-center">
-                        <h3 className="font-parkson text-2xl text-primary">
+                        <h3 className="font-parkson text-2xl text-primary group-hover:text-secondary">
                           UPLOAD CV
                         </h3>
                       </div>
@@ -114,7 +116,7 @@ export const Header = () => {
                       viewBox="0 0 18 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className=""
+                      className="hover:fill-secondary"
                     >
                       <path
                         d="M10.5 6.375V0H1.125C0.501562 0 0 0.501562 0 1.125V22.875C0 23.4984 0.501562 24 1.125 24H16.875C17.4984 24 18 23.4984 18 22.875V7.5H11.625C11.0063 7.5 10.5 6.99375 10.5 6.375ZM13.5553 16.5005H10.5V20.2505C10.5 20.6648 10.1644 21.0005 9.75 21.0005H8.25C7.83563 21.0005 7.5 20.6648 7.5 20.2505V16.5005H4.44469C3.77531 16.5005 3.44109 15.69 3.91641 15.218L8.43609 10.732C8.74781 10.4222 9.25125 10.4222 9.56297 10.732L14.0827 15.218C14.5584 15.69 14.2247 16.5005 13.5553 16.5005ZM17.6719 4.92188L13.0828 0.328125C12.8719 0.117188 12.5859 0 12.2859 0H12V6H18V5.71406C18 5.41875 17.8828 5.13281 17.6719 4.92188Z"
