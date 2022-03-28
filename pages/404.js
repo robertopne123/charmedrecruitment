@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Footer } from "../Components/Footer";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/header";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/LogoCropped.png" />
       </Head>
       <Header />
-404
+      404
       <Footer />
     </div>
   );

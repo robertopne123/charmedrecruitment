@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Footer } from "../Components/Footer";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/header";
 import Link from "next/link";
 
@@ -36,11 +36,11 @@ export default function JobSearch() {
               placeholder="LOCATION"
             />
           </div>
-            <div className=" flex flex-row w-full justify-center">
-              <button className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl">
-                Search
-              </button>
-            </div>
+          <div className=" flex flex-row w-full justify-center">
+            <button className="hover:bg-white font-parkson hover:text-secondary rounded-md bg-secondary text-white py-2  w-[100px] border-white tracking-wider text-xl">
+              Search
+            </button>
+          </div>
         </div>
       </div>
       <div className="grid gird-cols-1 py-[100px] sm:grid-cols-2 lg:grid-cols-3 gap-y-[40px] max-w-[1250px] mx-auto">
